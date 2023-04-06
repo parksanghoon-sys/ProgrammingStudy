@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DIP_의존성 역전원칙/1.0.0": {
+        "runtime": {
+          "DIP_의존성 역전원칙.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DIP_의존성 역전원칙/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
