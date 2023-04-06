@@ -1,0 +1,21 @@
+# async/awit
+## 개념
+<span style="background:yellow;color:black">**async/await**</span> 메서드는 **비동기 함수**라고도 불린다. 기존에 존재하던 Task의 장점을 살려 비동기작업을 손쉽게 수행할수 있는 프로그래밍을 만들고자 탄생하였다.
+<br>
+
+**await 연산자는 피연산자가 나태내는 비동기 작업이 완료될 때까지 수행을 중지** 한다. 그리고 await연산자를 포함한 메서드에 async를 붙여 컴파일러가 해당 함수가 비동기 함수임을 알 수있게 한다.
+```c#
+static async void SomeMethod()
+{
+    await Task.Run(() =>
+    {
+        SomeHeavyWork();    //시간이 좀 걸리는 메서드
+    });
+
+    //Task가 끝난 뒤에야 아래 코드가 시작된다.
+
+    Console.WriteLine("SomeHeavyWork Ended");
+}
+```
+참고로 async/await는 코루틴처럼 하나의 스레드가 비동기적으로 작업하는것이 아닌,  
+**여러 쓰레드(ThreadPool)**를 활용한다
