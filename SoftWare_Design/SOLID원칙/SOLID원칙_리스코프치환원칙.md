@@ -19,7 +19,7 @@ SOLID 원칙중'장애상황'. '버그'와 가장 가까운부분이 LSP원칙�
  * @author RWB
  * @since 2021.08.14 Sat 11:12:44
  */
-public class Rectangle
+public abstract class Rectangle
 {
     protected int width;
     protected int height;
@@ -29,7 +29,7 @@ public class Rectangle
      *
      * @return [int] 너비
      */
-    public int getWidth()
+    public virtual int getWidth()
     {
         return width;
     }
@@ -39,7 +39,7 @@ public class Rectangle
      *
      * @return [int] 높이
      */
-    public int getHeight()
+    public virtual int getHeight()
     {
         return height;
     }
@@ -49,7 +49,7 @@ public class Rectangle
      *
      * @param width: [int] 너비
      */
-    public void setWidth(int width)
+    public virtual void setWidth(int width)
     {
         this.width = width;
     }
@@ -59,7 +59,7 @@ public class Rectangle
      *
      * @param height: [int] 높이
      */
-    public void setHeight(int height)
+    public virtual void setHeight(int height)
     {
         this.height = height;
     }
@@ -135,14 +135,14 @@ public class Main
 
 ```
 ### 리스코프치환을 준수한 코드
-```java
+```c#
 /**
  * 사각형 객체
  *
  * @author RWB
  * @since 2021.08.14 Sat 11:39:02
  */
-public class Shape
+public abstract class Shape
 {
     protected int width;
     protected int height;
@@ -172,7 +172,7 @@ public class Shape
      *
      * @param width: [int] 너비
      */
-    public void setWidth(int width)
+    public virtual void setWidth(int width)
     {
         this.width = width;
     }
@@ -182,7 +182,7 @@ public class Shape
      *
      * @param height: [int] 높이
      */
-    public void setHeight(int height)
+    public virtual void setHeight(int height)
     {
         this.height = height;
     }

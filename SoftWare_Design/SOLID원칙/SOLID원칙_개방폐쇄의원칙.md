@@ -1,8 +1,8 @@
-## OCP : Open-Closed Principle
+# OCP : Open-Closed Principle
 > 기존 구성요소는 수정이 일어나지 말아야하며 쉽게 확장이 가능하여 재사용이 될수 있어야한다 
 > 
 OCP는 요구사항이 변경될때 기존 코드를 변경하는것이 아니라 새로운 코드를 추가하는 방향을 추구하는 원칙이다. 인터페이스 기반으로 설계 구현하여 해결해하는게 좋은방법이라고 할수있다.  
-### **[추상화가 답이다]**
+## **[추상화가 답이다]**
 OCP를 따르지 않는 간단한 설계의 예시
 <img src="56.jpg" width="400px" height="200px"/><br>
 Clinet와 Server 모두 구체 클래스 이기 떄문에 만약 Client가 다른서버를 사용한다면 Client클래스를 수정해야한다 바람직한 설계로 대체한 예시는 아래와 같다.
@@ -26,7 +26,7 @@ Clinet와 Server 모두 구체 클래스 이기 떄문에 만약 Client가 다�
   * 전략을 쉽게 변경해줄수 있는 디자인 패턴, 행위클래스로 캡슐화해 동적으로 행위를 자유롭게 바꿔주는 패턴이다
   * 가장 큰 장점은 새로운 기능의 추가가 기존코드에 영향을 미치지 못하게 되면서 OCP를 만족한다.<br>
 
-### **예제**
+## **예제**
 ```c#
 public interface PaymentMethod {
     bool ProcessPayment(decimal amount);
