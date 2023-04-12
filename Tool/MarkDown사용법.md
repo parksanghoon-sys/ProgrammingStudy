@@ -327,6 +327,7 @@ _single underscores_
 **double asterisks**
 __double underscores__
 ~~cancelline~~
+<u>Test</u>
 ```
 
 * *single asterisks*
@@ -334,6 +335,7 @@ __double underscores__
 * **double asterisks**
 * __double underscores__
 * ~~cancelline~~
+* <u>Test</u>
 
 > ```문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.```   
 > 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.
