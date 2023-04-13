@@ -16,5 +16,4 @@
 > PagingGroup = Math.Ceiling(DataNo/ ItemsPerPage)  
 > StartPage = (PagingGroup * NumberLinksPerPage) - NumberLinksPerPage + 1  
 > 스타트 페이징 그룹이란 = (데이터 인덱스(x) / 한페이지에 들어갈 아이템수(7))* 페이징 목록의 아이템수(5) - 페이징 목록의 아이템수(5) + 1  
-> 1~5 => 1, 6~10 => 6, 11~16 => 11  
-> 
+> 1~5 => 1, 6~10 => 6, 11~16 => 11
