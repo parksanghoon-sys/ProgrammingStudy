@@ -1,7 +1,24 @@
 # 명령어 모음
+## git init
+* git init : 깃 초기화 ㄱ`git` 파일이 생성된다.
+ ---
+## git status
+* git status : 깃의 상태를 보여준다.
+ ---
+## git add
+* git add -A : 모든 변경점 추가
 * git add [FileName1] [FileName2] : 원하는 파일 staging 등록
 * git add . : 수정한거 staging 전체 올림
-* git commit -m '[내용]' : git Commit
+---
+## git rm
+* git rm [파일이름] : 파일을 지우거나 스테이지에서 해제 할떄 사용
+* git rm --cached [파일이름] : git 에서 파일이 추적되지 않도록한다.
+---
+## git commit
+* git commit -m : '[내용]' : git Commit
+* git commit -a : 신규 파일을 제외한 변경사항을 Staging 후 커밋
+* git commit --amend : 이전 커밋 변경
+
 * git diff : 수정한 파일과 수전 전의 파일 차이를 본다. 
 * git difftool : 툴을 사용하여 차이를 확인한다
 * git log : 로그 기록을 확인. J,k 로 CLI 스크롤 
