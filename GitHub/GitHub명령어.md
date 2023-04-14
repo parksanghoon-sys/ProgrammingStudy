@@ -1,4 +1,4 @@
-# 명령어 모음
+# Git 명령어 모음
 ## git init
 * git init : 깃 초기화 `.git` 파일이 생성된다.
  ---
@@ -54,6 +54,63 @@
 * git push [저장소명] [브렌치명] : 기본사용법 그냥 안써도 현재 푸시됨
 * git push -u [저장소명] [브렌치명] : 최초 1회 저장소, branch 지정 이 후 생략가능
 * git push --set-upstream [저장소명] [브런치명]
+
+---
+## git branch
+* git branch : 로컬 branch 목록 확인
+* git branch -a : 원격을 포함한 모든 branch목록 확인
 * git branch [만들고싶은브런치명] : 브런치를 만든다 로컬
-* git switch [브런치명] : 브런치를 이동한다  `checkout`과 비슷
+* git branch -d [브런치명] : 브런치 삭제
+* git branch -D [브런치명] : 브런치 강제 삭제
+  
+---
+## git switch [브런치 변경]
+checkout 에서 복언하느 기능을 제거
+* git switch [브런치명] : 브런치를 이동한다.
+
+---
+## git fetch [원격 저장소 데이터 가져온다]
+* git fetch [저장소명] : 저장소 명에 있는 데이터를 가져옴
+* git fetch --prune : 원격 저장소에서 삭제된 브런치를 로컬에서도 삭제
+
+---
+## git pull [브런치 상태 떙겨오기]
+* git pull --all : 원격저장소의 데이터를 로컬로 가져온후 병합한다.
+
+---
+## git stash [작업중인 변경점 임시 저장 및 불러오기]
+* git stash save [저장할이름] :현재 변경점 저장하기 저장되고 이전 작성은 삭제된다.
+* git stash list : stash 목록 확인하기
+* git stash apply [저장이름] : 저장잉름의 변경점 불러오기
+* git stash apply [저장이름] : --index : 저장이름 불러와 적용하는데 Staged 상태까지 적용
+* git stash pop : 가장최근 stash가져와 적용하고 스택에서 삭제
+* git stash drop : 가장최근 stash 삭제
+
+---
+## git blame[특정파일 수정 이력 확인]
+* git blame [파일이름] : 파일이름의 수정 이력을 확인
+* git blame -L [시작 라인, 끝라인] [파일이름] : 파일이름의 시작라인부터 끝라인까지 만 확인
+* git blame -C [파일이름] : 파일 이름이 변경시 변경전 파일명 확인
+* git blame -w [파일이름] : 공백 변경 무시
+
+---
+## git revert [커밋 되돌리기]
+* git revert [커밋해쉬] : 특정 커밋으로 되돌린다.
+* git revert [테그명] : 특정 태그로 되돌리고 커밋
+* git revert [커밋해쉬] -n : 특정 커밋으로 되돌리진않지만 커밋 안한채로 Staging 상태
+
+---
+## git tag [특정 커밋에 표기하는 기능]
+* Lightweight 태그
+  * 단순히 버전등의 이름을 남길 때 사용.
+* Annotated 태그
+  * 만든 사람 이름, 이메일, 날짜 메시지 까지 저장
+* 
+---
+## git merge
 * git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
+* git merge --abort : 병합 충돌 발생시 취소
+* git merge -Xignore-all-sapce : 공백으로 인한 병합 충돌을 무시하고 병합
+
+---
+## git rebase
