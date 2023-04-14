@@ -121,8 +121,18 @@ checkout 에서 복언하느 기능을 제거
 
 ---
 ## git rebase
+
 Merge와는 다르게 이름 그대로 브런치의 공통 조상이 되는 base를 다른 브런치의 커밋 지점으로 바꾸는것이다.  
 1. 수정한 브런치로 체크아웃을 한다.
 2. >git rebase master
 3. 그럼 완료?
+* 모든 충돌을 수동으로 해결해주고, git rebase --continue를 입력해줘
+* 이 커밋을 건너뛰려면 git rebase --skip을 입력해
+* 중단하고 이전 상태로 돌아가려면 git rebase --abort를 입력해
 
+---
+## 브랜치 병함 Merge VS Rebase
+
+Merge의 경우 히스토리란 작업한 내용의 사실을 기록한것이다. Merge로 브런치를 병합하게되면 커밋내역에 Merge commit이 추가로 남는다. 따라서 Merge를 사용하면 브런치가 생기고 병합되는 모든 작업 내용을 그대로 기록하게 된다.  
+
+Rebase 의 경우 브랜치를 병합할때 Merge Commit을 남기지 않으므로, 마치 다른 브랜치는 없던것 처럼 프로젝트의 작업내용이 하나의 흐름을유지된다.
