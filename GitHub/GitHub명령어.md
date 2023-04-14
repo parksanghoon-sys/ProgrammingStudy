@@ -60,6 +60,7 @@
 * git branch : 로컬 branch 목록 확인
 * git branch -a : 원격을 포함한 모든 branch목록 확인
 * git branch [만들고싶은브런치명] : 브런치를 만든다 로컬
+<<<<<<< HEAD
 * git branch -d [브런치명] : 브런치 삭제
 * git branch -D [브런치명] : 브런치 강제 삭제
   
@@ -114,3 +115,8 @@ checkout 에서 복언하느 기능을 제거
 
 ---
 ## git rebase
+=======
+* git switch [브런치명] : 브런치를 이동한다  `checkout`과 비슷
+* git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
+* 
+>>>>>>> 3dfa29997439fc9da2ae0d7a989df5a82c42e9f8
