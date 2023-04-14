@@ -46,21 +46,21 @@
 
 ---
 ## git remote [원격 저장소 관리]
+* git remote : 원격 저장소 이름 확인
 * git remote -v : 설정된 원격 저장소 보기
 * git remote add [저장소명] [원격저장소주소]
-
+  
 ---
 ## git push [원격 저장소에 변경알림]
 * git push [저장소명] [브렌치명] : 기본사용법 그냥 안써도 현재 푸시됨
 * git push -u [저장소명] [브렌치명] : 최초 1회 저장소, branch 지정 이 후 생략가능
 * git push --set-upstream [저장소명] [브런치명]
-
+* git push [원격 저장소 이름] -d [원격 브랜치 이름] : 원격 브렌치 삭제
 ---
 ## git branch
 * git branch : 로컬 branch 목록 확인
 * git branch -a : 원격을 포함한 모든 branch목록 확인
 * git branch [만들고싶은브런치명] : 브런치를 만든다 로컬
-<<<<<<< HEAD
 * git branch -d [브런치명] : 브런치 삭제
 * git branch -D [브런치명] : 브런치 강제 삭제
   
@@ -106,7 +106,13 @@ checkout 에서 복언하느 기능을 제거
   * 단순히 버전등의 이름을 남길 때 사용.
 * Annotated 태그
   * 만든 사람 이름, 이메일, 날짜 메시지 까지 저장
-* 
+* git tag [v1.0.0] : 현재 HEAD에 v1.0.0 이라는 Lightweight 태그생성
+* git tag -a [v1.0.0]-m [메세지] : 현재 HEAD에 v1.0.0 이라는 Annotated 태그생성
+* git tag v1.0.0 [커밋해시] : 특정 커밋에 v1.0.0이라는 Lightweight 태그 생성
+* git push [저장소 이름] v1.0.0 : v1.0.0 태그를 원격 저장소에 푸시하기
+* git push origin --tags : 모든 로컬 태그를 원격 저장소에 푸시하기
+* git tag -d v1.0.0 : 로컬의 v1.0.0 삭제
+* git push -d [저장소 이름] v1.0.0 :원격 저장소의 v1.0.0 태그 삭제
 ---
 ## git merge
 * git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
@@ -115,8 +121,4 @@ checkout 에서 복언하느 기능을 제거
 
 ---
 ## git rebase
-=======
-* git switch [브런치명] : 브런치를 이동한다  `checkout`과 비슷
-* git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
-* 
->>>>>>> 3dfa29997439fc9da2ae0d7a989df5a82c42e9f8
+
