@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpCommunityToolkitMVVM.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpCommunityToolkitMVVM"
+        xmlns:vm ="clr-namespace:WpCommunityToolkitMVVM.ViewModels"
+        xmlns:m ="clr-namespace:WpCommunityToolkitMVVM.Models"
+        xmlns:cv ="clr-namespace:WpCommunityToolkitMVVM.Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <StackPanel Width="150"
+			VerticalAlignment="Center">
+                <TextBox x:Name="InputTextBoxId"
+                Text="{Binding Id, 
+                    UpdateSourceTrigger=PropertyChanged}"
+			        Margin="0 10"/>
+                <TextBox x:Name="InputTextBoxMsg"
+                Text="{Binding Message, 
+                    UpdateSourceTrigger=PropertyChanged}"
+			        Margin="0 10"/>
+                <StackPanel Orientation="Horizontal"
+                        Margin="4,4" 
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                    <Button Height="40"                       
+			            Content="Login"
+			            Command="{Binding LoginCommand}"/>
+                    <Button Height="40"
+			            Content="Add"
+                        VerticalAlignment="Center"
+			            Command="{Binding AddCommand}">
+                        <Button.CommandParameter>
+                            <MultiBinding Converter="{StaticResource MultiTextBoxConverter}">
+                                <Binding ElementName="InputTextBoxId" Path="Text"/>
+                                <Binding ElementName="InputTextBoxMsg" Path="Text"/>
+                            </MultiBinding>
+                        </Button.CommandParameter>
+                    </Button>
+                    <Button Height="40"                       
+			            Content="Cancel"
+			            Command="{Binding CancelCommand}"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <ContentControl Content="{Binding UserView}"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6icTBwmc5ZXhREiNAb//6PnD7tsSY8vawPezZfwrsKlt67jeI93gEE6p8vHGbSEHqnJJFJUvLVAyhiwN2yuGLg==",
+  "success": true,
+  "projectFilePath": "F:\\C++++\\Csharp_Study\\wpf\\CommunityToolkitMVVM\\Project\\WpCommunityToolkitMVVM\\WpCommunityToolkitMVVM\\WpCommunityToolkitMVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ParkSangHoon\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
+    "C:\\Users\\ParkSangHoon\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\ParkSangHoon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
