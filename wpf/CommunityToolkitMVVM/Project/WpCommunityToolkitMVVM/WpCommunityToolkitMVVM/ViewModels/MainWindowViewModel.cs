@@ -43,15 +43,20 @@ namespace WpCommunityToolkitMVVM.ViewModels
 
         }
         [RelayCommand]
-        private void  Add(Tuple<string, string> input)
+        private async Task Add(Tuple<string, string> input)
         {
             User user = new User().createUser(input.Item1,input.Item2);
+            ProductChangedMessage productChangedMessage = new ProductChangedMessage("TEST");
             //AsyncRequestMessage<User> message = new AsyncRequestMessage<User>();
             //await WeakReferenceMessenger.Default.Send(message);
             //var response = await message.Response;
 
             ValueChangedMessage<User> message = new ValueChangedMessage<User>(user);
             WeakReferenceMessenger.Default.Send(message);
+
+            AsyncRequestMessage<ProductChangedMessage> message2 = new AsyncRequestMessage<ProductChangedMessage>();
+            await WeakReferenceMessenger.Default.Send(message2);
+            var resopns = await message2.Response;
         }
         [RelayCommand]
         private void Cancel()
