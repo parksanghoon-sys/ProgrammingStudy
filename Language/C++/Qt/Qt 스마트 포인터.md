@@ -1,6 +1,7 @@
 # 스마트 포인터
 스마트 포인터는 표준 포인터의 모든 기능을 가지고 있으며 자동으로 가비지 컬렉션 기능을 제공하는 클래스이다. Qt로 프로그래밍시 메모리 누수를 도와주는 스마트포인터를 설명한다.
 ## QSharedPoint
+---
 QSharedPointsms 개체 외부에 배치된 참조를 통해 공유 포인터를 보유한다 C++의 `std::shared_ptr`과 같다. constness를 포함하여 일반적인 목적을 위해 일반적인 포인터와 같이 동작한다.  
 다른 QSharedPointer 개체가 참조하지 않는 한 QSharedPointer는 범위를 벗어날 때 보유하고 있는 포인터를 삭제한다.
 
@@ -14,6 +15,7 @@ pI2.clear();
 // 더 이상 공유하는 포인터가 없으므로 pI가 삭제된다.
 ```
 ## QScopedPointer
+---
 QScopedPointer는 단순히 힙 할당 객체에 대한 포인터를 보유하고 소멸자에서 삭제된다. 따라서 현재 범위를 벗어날 때 가리키는 객체가 삭제되도록 보장한다.
 ```C++
 MyClass *foo() {
@@ -26,6 +28,7 @@ MyClass *foo() {
 }
 ```
 ## QPointer
+---
 QPointer은 QObject 파생클래스 인스턴스에 대한 보호된 포인터를 제공하는 템플릿 클래스이다. 다른 누군가 소유한 QObject에 대한 포인터를 저장해야 할때 유용하며 참조를 계속 보유하는 동안 파괴될수 있다.
 ```C++
 QObject *obj = new QObject;
