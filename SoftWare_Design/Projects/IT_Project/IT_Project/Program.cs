@@ -48,6 +48,14 @@ public class Salad : Food
 
     }
 }
+public class Test<T> : Food where T : Food
+{
+    public Test(int price, Food next) : base(price, next)
+    {
+        Console.WriteLine(T.CalculatePrice());
+
+    }
+}
 public class Program
 {
     public static void Main()
