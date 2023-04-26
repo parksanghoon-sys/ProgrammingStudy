@@ -18,7 +18,7 @@
 * git commit -m : '[내용]' : git Commit
 * git commit -a : 신규 파일을 제외한 변경사항을 Staging 후 커밋
 * git commit --amend : 이전 커밋 내용 변경
-
+* git reset --soft HEAD^ 이전 커밋 취소, 해당파일은 워킹 디렉토리에 보관
 ---
 ## git diff [이전 커밋과의 차이 확인]
 * git diff : 수정한 파일과 수전 전의 파일 차이를 본다. 
