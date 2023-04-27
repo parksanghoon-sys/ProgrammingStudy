@@ -1,5 +1,5 @@
 @startuml
-actor Bob #red
+actor Bob 
 ' The only difference between actor
 'and participant is the drawing
 participant Alice
