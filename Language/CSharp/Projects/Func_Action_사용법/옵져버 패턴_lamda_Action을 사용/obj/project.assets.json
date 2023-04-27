@@ -8,25 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ParkSangHoon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\옵져버 패턴_lamda_Action을 사용.csproj",
+      "projectUniqueName": "E:\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\옵져버 패턴_lamda_Action을 사용.csproj",
       "projectName": "옵져버 패턴_lamda_Action을 사용",
-      "projectPath": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\옵져버 패턴_lamda_Action을 사용.csproj",
-      "packagesPath": "C:\\Users\\ParkSangHoon\\.nuget\\packages\\",
-      "outputPath": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\obj\\",
+      "projectPath": "E:\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\옵져버 패턴_lamda_Action을 사용.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\Csharp_Study\\Language\\CSharp\\Projects\\Func_Action_사용법\\옵져버 패턴_lamda_Action을 사용\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ParkSangHoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -35,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
