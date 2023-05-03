@@ -118,6 +118,7 @@ checkout 에서 복언하느 기능을 제거
 * git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
 * git merge --abort : 병합 충돌 발생시 취소
 * git merge -Xignore-all-sapce : 공백으로 인한 병합 충돌을 무시하고 병합
+* git merge --no-ff feature/login : feature 이력을 합쳐서 병합한다.
 
 ---
 ## git rebase
