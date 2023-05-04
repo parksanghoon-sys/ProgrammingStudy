@@ -57,7 +57,7 @@
 * git push --set-upstream [저장소명] [브런치명]
 * git push [원격 저장소 이름] -d [원격 브랜치 이름] : 원격 브렌치 삭제
 ---
-## git branch
+## `git branch`
 * git branch : 로컬 branch 목록 확인
 * git branch -a : 원격을 포함한 모든 branch목록 확인
 * git branch [만들고싶은브런치명] : 브런치를 만든다 로컬
@@ -114,7 +114,7 @@ checkout 에서 복언하느 기능을 제거
 * git tag -d v1.0.0 : 로컬의 v1.0.0 삭제
 * git push -d [저장소 이름] v1.0.0 :원격 저장소의 v1.0.0 태그 삭제
 ---
-## git merge
+## `git merge`
 * git merge [합칠브런치명] : 메인 브렌치로 이동후 합칠 브런치와 합친다.
 * git merge --abort : 병합 충돌 발생시 취소
 * git merge -Xignore-all-sapce : 공백으로 인한 병합 충돌을 무시하고 병합
