@@ -2,6 +2,9 @@
 ## git init
 * git init : 깃 초기화 `.git` 파일이 생성된다.
  ---
+## git clone
+* git clone [원격저장소] : 원격저장소 불러오기
+---
 ## git status
 * git status : 깃의 상태를 보여준다.
  ---
@@ -35,7 +38,7 @@
 ---
 ## git show [Commit 정보 확인]
 * git show : 현재 branch의 가장 최근 commit 정보를 확인
-* git show [commit해시값] : 특정 commit 정보를 확인
+* git show [커밋아이디] : 특정 commit 정보를 확인
 * git show [branch명] : 특정 branch의 가장 최근 commit 정보를 확인
 
 ---
@@ -66,7 +69,7 @@
   
 ---
 ## git switch [브런치 변경]
-checkout 에서 복언하느 기능을 제거
+* checkout 에서 복언하느 기능을 제거
 * git switch [브런치명] : 브런치를 이동한다.
 
 ---
@@ -77,6 +80,7 @@ checkout 에서 복언하느 기능을 제거
 ---
 ## git pull [브런치 상태 떙겨오기]
 * git pull --all : 원격저장소의 데이터를 로컬로 가져온후 병합한다.
+* git pull [branch명] : 해당 브런치를 pull 한다.
 
 ---
 ## git stash [작업중인 변경점 임시 저장 및 불러오기]
@@ -96,9 +100,14 @@ checkout 에서 복언하느 기능을 제거
 
 ---
 ## git revert [커밋 되돌리기]
-* git revert [커밋해쉬] : 특정 커밋으로 되돌린다.
+* git revert [커밋아이디] : 특정 커밋으로 되돌린다.
 * git revert [테그명] : 특정 태그로 되돌리고 커밋
-* git revert [커밋해쉬] -n : 특정 커밋으로 되돌리진않지만 커밋 안한채로 Staging 상태
+* git revert [커밋아이디] -n : 특정 커밋으로 되돌리진않지만 커밋 안한채로 Staging 상태
+---
+## git restore [특정 파일 되돌리기]
+* git restore [파일명] : 파일이 최근 커밋으로 되돌린다.
+* git restore --source [커밋아이디] : 커밋 아이디 시점으로 해당 파일을 복구한다.
+* git restore --staged [파일] : 특정 파일 staged 취소
 
 ---
 ## git tag [특정 커밋에 표기하는 기능]
@@ -108,7 +117,7 @@ checkout 에서 복언하느 기능을 제거
   * 만든 사람 이름, 이메일, 날짜 메시지 까지 저장
 * git tag [v1.0.0] : 현재 HEAD에 v1.0.0 이라는 Lightweight 태그생성
 * git tag -a [v1.0.0]-m [메세지] : 현재 HEAD에 v1.0.0 이라는 Annotated 태그생성
-* git tag v1.0.0 [커밋해시] : 특정 커밋에 v1.0.0이라는 Lightweight 태그 생성
+* git tag v1.0.0 [커밋아이디] : 특정 커밋에 v1.0.0이라는 Lightweight 태그 생성
 * git push [저장소 이름] v1.0.0 : v1.0.0 태그를 원격 저장소에 푸시하기
 * git push origin --tags : 모든 로컬 태그를 원격 저장소에 푸시하기
 * git tag -d v1.0.0 : 로컬의 v1.0.0 삭제
