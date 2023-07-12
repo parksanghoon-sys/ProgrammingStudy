@@ -33,31 +33,34 @@
 11. ConsoleWrite
 
     * cw 텝2번
-12. 다중커서
+12. DependencyProperty 만들기
+
+    1. propdp + Tab 2번
+13. 다중커서
 
     * ctrl + alt + 마우스클릭
     * alt +
       shift + 키보드방향키
-13. region  펼치기, 접기
+14. region  펼치기, 접기
 
     * Ctrl  M M => 줄인거 피기
     * Ctrl M O => 줄인거 줄이기
-14. 전체 펼치기
+15. 전체 펼치기
 
     1. Ctrl M L
-15. 창이동
+16. 창이동
 
     1. ctrl  +-
-16. 주석처리
+17. 주석처리
 
     1. Ctrl +K C
-17. 주석해재
+18. 주석해재
 
     1. Ctrl K U
-18. 리전
+19. 리전
 
     1. Ctrl K S
-19. Dependency
+20. Dependency
     Property 만들기
 
     1. Ctrl+K,X -> NetFX30
