@@ -120,6 +120,7 @@
 
 * git pull --all : 원격저장소의 데이터를 로컬로 가져온후 병합한다.
 * git pull [branch명] : 해당 브런치를 pull 한다.
+* git pull origin main --allow-unrelated-histories 관련 기록이 없는 병합시
 
 ---
 
