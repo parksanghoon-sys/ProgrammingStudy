@@ -102,6 +102,12 @@
 
 ---
 
+## git checkout [브런치 변경]
+
+* git checkout [브런치명] : 브런치를 이동한다.
+* git checkout -t [저장소명/브런치명] : remote 브런치로 체크아웃한다.
+---
+
 ## git switch [브런치 변경]
 
 * checkout 에서 복언하느 기능을 제거
