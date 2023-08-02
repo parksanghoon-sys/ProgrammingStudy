@@ -60,7 +60,13 @@
 19. 리전
 
     1. Ctrl K S
-20. Dependency
+20. 동일 문서 텍스트 전체 선택
+
+    1. shift + alt + K
+21. 동일문서 텍스트 찾기
+
+    1. shift + alt + .
+22. Dependency
     Property 만들기
 
     1. Ctrl+K,X -> NetFX30
