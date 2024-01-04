@@ -72,7 +72,7 @@ namespace DelegateEventExample
                 while(true)
                 {
                     _manager.AddModel(index, new Model { Age = index + 10 + random.NextDouble(), Name = "Test3" });
-                    Thread.Sleep(100);
+                    Thread.Sleep(10);
                 }
 
 
@@ -105,7 +105,9 @@ namespace DelegateEventExample
     {
         public delegate void NoChageDelegate(int setNumber);
         public event NoChageDelegate NoChangeEvnet;
+
         private Thread _thread;
+        private bool _disposed = false;
         private Dictionary<int, List<T>> Models = new();
         private object _lock = new object();
         CAS_Lock _cas = new CAS_Lock();
@@ -130,70 +132,70 @@ namespace DelegateEventExample
             }
         }
 
-        //private async void StartMonitoring()
-        //{
-        //    while (IsThreadCircle)
-        //    {
-        //        lock (_lock)
-        //        {
-        //            App.Current.Dispatcher.Invoke(() =>
-        //            {
-        //                ModelCollection.Clear();
-        //            });
-
-        //            foreach (var model in Models)
-        //            {
-        //                if ((DateTime.Now - lastChangeTime[model.Key]).TotalSeconds >= 5)
-        //                {
-        //                    NoChangeEvnet?.Invoke(model.Key);
-
-        //                }
-        //                App.Current.Dispatcher.Invoke(() =>
-        //                {
-        //                    ModelCollection.AddRange(model.Value);
-        //                });
-
-
-        //            }
-        //        }
-
-        //        await Task.Delay(100); // 5초마다 체크
-        //    }
-        //}
-
-        private void StartMonitoring()
+        private async void StartMonitoring()
         {
-            _thread = new Thread(() =>
+            while (IsThreadCircle)
             {
-                while (IsThreadCircle)
+                lock (_lock)
                 {
-                    lock (_lock)
+                    App.Current.Dispatcher.Invoke(() =>
                     {
-                        App.Current.Dispatcher.Invoke(() =>
-                        {
-                            ModelCollection.Clear();
-                        });
+                        ModelCollection.Clear();
+                    });
 
-                        foreach (var model in Models)
+                    foreach (var model in Models)
+                    {
+                        if ((DateTime.Now - lastChangeTime[model.Key]).TotalSeconds >= 5)
                         {
-                            var key = model.Key;
-                            if ((DateTime.Now - lastChangeTime[model.Key]).TotalSeconds >= 5)
-                            {
-                                NoChangeEvnet?.Invoke(model.Key);
-                            }
-                            App.Current.Dispatcher.Invoke(() =>
-                            {
-                                ModelCollection.AddRange(model.Value);
-                            });
-
+                            NoChangeEvnet?.Invoke(model.Key);
 
                         }
+                        App.Current.Dispatcher.Invoke(() =>
+                        {
+                            ModelCollection.AddRange(model.Value);
+                        });
+
+
                     }
-                    Thread.Sleep(100);
                 }
-            });
-            _thread.Start();
+
+                await Task.Delay(100); // 5초마다 체크
+            }
         }
+
+        //private void StartMonitoring()
+        //{
+        //    _thread = new Thread(() =>
+        //    {
+        //        while (IsThreadCircle)
+        //        {
+        //            lock (_lock)
+        //            {
+        //                App.Current.Dispatcher.BeginInvoke(new Action(() =>
+        //                {
+        //                    ModelCollection.Clear();
+        //                }));
+
+        //                foreach (var model in Models)
+        //                {
+        //                    var key = model.Key;
+        //                    if ((DateTime.Now - lastChangeTime[model.Key]).TotalSeconds >= 5)
+        //                    {
+        //                        NoChangeEvnet?.Invoke(model.Key);
+        //                    }
+        //                    App.Current.Dispatcher.BeginInvoke(new Action(() =>
+        //                    {
+        //                        ModelCollection.AddRange(model.Value);
+        //                    }));
+
+
+        //                }
+        //            }
+        //            Thread.Sleep(100);
+        //        }
+        //    });
+        //    _thread.Start();
+        //}
         public void AddModel(int setNumber, T model)
         {
             lock (_lock)
@@ -215,7 +217,7 @@ namespace DelegateEventExample
             Models[setNumber].Add(model);
             lastChangeTime[setNumber] = DateTime.Now;
         }
-        private bool _disposed = false;
+        
 
         ~ModelManager() => Dispose(false);
         // Protected implementation of Dispose pattern.
