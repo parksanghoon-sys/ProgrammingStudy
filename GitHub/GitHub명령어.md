@@ -80,6 +80,7 @@
 * git remote : 원격 저장소 이름 확인
 * git remote -v : 설정된 원격 저장소 보기
 * git remote add [저장소명] [원격저장소주소]
+* git remote remove [저장소명]
 
 ---
 
@@ -106,6 +107,7 @@
 
 * git checkout [브런치명] : 브런치를 이동한다.
 * git checkout -t [저장소명/브런치명] : remote 브런치로 체크아웃한다.
+
 ---
 
 ## git switch [브런치 변경]

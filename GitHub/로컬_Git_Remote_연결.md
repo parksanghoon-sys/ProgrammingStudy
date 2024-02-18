@@ -11,5 +11,3 @@
 **git branch -M main**
 
 **git remote add origin {원격 저장소 주소}**
-
-**git push -u origin main**
