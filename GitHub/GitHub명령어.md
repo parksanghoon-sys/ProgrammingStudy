@@ -8,7 +8,7 @@
 
 ## git clone
 
-* git clone [원격저장소] : 원격저장소 불러오기
+* git clone [원격저장소] : 원격저장소 불러오기g
 
 ---
 
@@ -160,7 +160,14 @@
 
 ---
 
-## git restore [특정 파일 되돌리기]
+## git rebase [커밋 수정하기]
+
+* git rebase -i Head~[갯수] : 특정갯수 를 수정하고싶으면 reword를 입력하여 수정한
+* git commit --amend : 가장최근 커밋을 수정한다
+
+---
+
+## git restore [특정 파일 되리기]
 
 * git restore [파일명] : 파일이 최근 커밋으로 되돌린다.
 * git restore --source [커밋아이디] : 커밋 아이디 시점으로 해당 파일을 복구한다.
