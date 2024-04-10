@@ -1,0 +1,15 @@
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\bin\Debug\net7.0\ISP_인터페이스분리원칙.exe
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\bin\Debug\net7.0\ISP_인터페이스분리원칙.deps.json
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\bin\Debug\net7.0\ISP_인터페이스분리원칙.runtimeconfig.json
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\bin\Debug\net7.0\ISP_인터페이스분리원칙.dll
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\bin\Debug\net7.0\ISP_인터페이스분리원칙.pdb
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.csproj.AssemblyReference.cache
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.GeneratedMSBuildEditorConfig.editorconfig
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.AssemblyInfoInputs.cache
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.AssemblyInfo.cs
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.csproj.CoreCompileInputs.cache
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.dll
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\refint\ISP_인터페이스분리원칙.dll
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.pdb
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ISP_인터페이스분리원칙.genruntimeconfig.cache
+F:\C++++\Csharp_Study\SoftWare_Design\SOLID원칙\OOP_SOLID_Project\ISP_인터페이스분리원칙\obj\Debug\net7.0\ref\ISP_인터페이스분리원칙.dll

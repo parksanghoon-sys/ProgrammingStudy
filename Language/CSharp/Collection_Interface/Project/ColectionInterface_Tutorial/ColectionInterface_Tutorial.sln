@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable_IEnumerator", "ColectionInterface_Tutorial\IEnumerable_IEnumerator.csproj", "{4F560E06-F331-4883-AB2F-4C9B6E5E7CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICollection", "ICollection\ICollection.csproj", "{3B725D7C-6564-4831-A3DB-E801C18B9CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F560E06-F331-4883-AB2F-4C9B6E5E7CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F560E06-F331-4883-AB2F-4C9B6E5E7CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F560E06-F331-4883-AB2F-4C9B6E5E7CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F560E06-F331-4883-AB2F-4C9B6E5E7CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B725D7C-6564-4831-A3DB-E801C18B9CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B725D7C-6564-4831-A3DB-E801C18B9CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B725D7C-6564-4831-A3DB-E801C18B9CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B725D7C-6564-4831-A3DB-E801C18B9CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690E647D-ED8C-431B-A36D-6C58EE5C80A5}
+	EndGlobalSection
+EndGlobal

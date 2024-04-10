@@ -1,0 +1,15 @@
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\bin\Debug\net7.0\상속과합성.exe
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\bin\Debug\net7.0\상속과합성.deps.json
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\bin\Debug\net7.0\상속과합성.runtimeconfig.json
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\bin\Debug\net7.0\상속과합성.dll
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\bin\Debug\net7.0\상속과합성.pdb
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.csproj.AssemblyReference.cache
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.GeneratedMSBuildEditorConfig.editorconfig
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.AssemblyInfoInputs.cache
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.AssemblyInfo.cs
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.csproj.CoreCompileInputs.cache
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.dll
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\refint\상속과합성.dll
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.pdb
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\상속과합성.genruntimeconfig.cache
+F:\C++++\Csharp_Study\SoftWare_Design\Projects\IT_Project\IT_Project\obj\Debug\net7.0\ref\상속과합성.dll

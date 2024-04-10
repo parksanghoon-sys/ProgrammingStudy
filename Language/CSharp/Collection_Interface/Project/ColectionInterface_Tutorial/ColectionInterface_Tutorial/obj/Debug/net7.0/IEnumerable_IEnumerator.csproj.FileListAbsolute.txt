@@ -1,0 +1,15 @@
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\bin\Debug\net7.0\IEnumerable_IEnumerator.exe
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\bin\Debug\net7.0\IEnumerable_IEnumerator.deps.json
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\bin\Debug\net7.0\IEnumerable_IEnumerator.runtimeconfig.json
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\bin\Debug\net7.0\IEnumerable_IEnumerator.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\bin\Debug\net7.0\IEnumerable_IEnumerator.pdb
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.csproj.AssemblyReference.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.GeneratedMSBuildEditorConfig.editorconfig
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.AssemblyInfoInputs.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.AssemblyInfo.cs
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.csproj.CoreCompileInputs.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\refint\IEnumerable_IEnumerator.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.pdb
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\IEnumerable_IEnumerator.genruntimeconfig.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ColectionInterface_Tutorial\obj\Debug\net7.0\ref\IEnumerable_IEnumerator.dll

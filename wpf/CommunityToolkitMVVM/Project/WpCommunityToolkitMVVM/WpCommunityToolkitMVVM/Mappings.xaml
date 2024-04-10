@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:view="clr-namespace:WpCommunityToolkitMVVM.Views"
+                    xmlns:viewmodel="clr-namespace:WpCommunityToolkitMVVM.ViewModels">
+    <DataTemplate DataType="{x:Type viewmodel:MainWindowViewModel}">
+        <view:MainWindow/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type viewmodel:ReceiveViewModel}">
+        <view:UserControl1/>
+    </DataTemplate>
+</ResourceDictionary>

@@ -1,0 +1,10 @@
+language: cpp
+
+dist: trusty
+sudo: required
+
+script:
+      - ls -la
+      - cmake -DCMAKE_BUILD_TYPE=release -DBUILD_TESTS=ON
+      - make
+      - make test

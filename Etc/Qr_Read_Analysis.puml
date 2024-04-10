@@ -1,0 +1,29 @@
+@startuml
+start
+:Strip Qr Read;
+:Read Lot Number;
+:Read triple Qr Code \n Read cutoff;
+if(Strip Lot Databse Cutoff 조회 ?) then (Not Exist)
+: Db Save;
+else (Exit)
+
+endif
+: 분석 시작;
+: Db에서 전체 Select(Cutoff, LotNumber Read);
+if(현재 분석 스트립 LotNumber Contain Data 검색) then (yes)
+: Db 저장되어 있는 Cutoff 사용;
+else (no)
+: 사용자 지정 Cutoff 사용;
+endif
+if(현재 ClassType 이 'P' 인지 ?) then (P)
+: tIgE Zero Condition Setting INI 값 읽어서 곱한다;
+else (N)
+    if(UserConfig에서 체크한 Class를 다른 Band Class가 넘을 경우 ?) then (Over)
+    :  비례값 1;
+    else (less)
+    : INI 설정한 비례 값을 가져온다;
+    endif
+endif
+: raw 데이터 와 비례값을 곱한 후 다시 컷 오프를 비교한다.;
+stop
+@enduml

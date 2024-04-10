@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Csharp_Study\Language\C++\C++\DependencyInjection\Projects\cinject-master\src\sample\cinject_test_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Csharp_Study\Language\C++\C++\DependencyInjection\Projects\cinject-master\include\cinject\cinject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Csharp_Study\Language\C++\C++\DependencyInjection\Projects\cinject-master\src\sample\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1223EEC1-9AA4-3919-8604-33C13D326969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EF4649DA-B247-38EE-B4FD-9BD24A59A5B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

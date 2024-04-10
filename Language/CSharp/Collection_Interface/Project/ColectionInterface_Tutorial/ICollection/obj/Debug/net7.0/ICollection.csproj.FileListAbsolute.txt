@@ -1,0 +1,15 @@
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\bin\Debug\net7.0\ICollection.exe
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\bin\Debug\net7.0\ICollection.deps.json
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\bin\Debug\net7.0\ICollection.runtimeconfig.json
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\bin\Debug\net7.0\ICollection.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\bin\Debug\net7.0\ICollection.pdb
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.csproj.AssemblyReference.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.GeneratedMSBuildEditorConfig.editorconfig
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.AssemblyInfoInputs.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.AssemblyInfo.cs
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.csproj.CoreCompileInputs.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\refint\ICollection.dll
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.pdb
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ICollection.genruntimeconfig.cache
+F:\C++++\Csharp_Study\Language\CSharp\Collection_Interface\Project\ColectionInterface_Tutorial\ICollection\obj\Debug\net7.0\ref\ICollection.dll

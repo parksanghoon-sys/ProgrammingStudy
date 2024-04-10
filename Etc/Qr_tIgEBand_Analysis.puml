@@ -1,0 +1,37 @@
+@startuml
+start
+:FucQrStripRead();
+if(ReadCount==3 ?) then (true)
+:DB_Check;
+else  (false)
+stop
+endif    
+if(DB에 해당 Lot가 있는 여부?) then (true)
+else (false)
+:DB에 해당 Lot, Cutoff값, Exp Date 정보 Save;
+endif
+:알러지 검사 시작;
+:스트립 분석 시작;
+if (각 스트립 분석 성공 ?) then (true)
+:검사 실행한 알러지 스트립 lot 정보확인;
+    if (해당 스트립 lot 정보가 DB에 있을 시 ?) then (true)
+    :DB에 저장되어 있던 CutOff을 이용 tIgE Band 분석;
+    else (false)
+    :사용자 지정 CutOff 값을 이용 tIgE Band 분석;
+    
+    endif     
+else (false)
+stop
+endif
+if(현재 ClassType 이 'P' 인지 ?) then (P)
+: tIgE Zero Condition Setting INI 값 읽어서 곱한다;
+else (N)
+    if(UserConfig에서 체크한 Class를 다른 Band Class가 넘을 경우 ?) then (Over)
+    :  비례값 1;
+    else (less)
+    : INI 설정한 비례 값을 가져온다;
+    endif
+endif
+: raw 데이터 와 비례값을 곱한 후 다시 컷 오프를 비교한다.;
+stop
+@enduml
