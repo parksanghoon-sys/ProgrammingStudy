@@ -70,4 +70,7 @@ private void Worker()
 }
 ```
 
-위와 같이 System.Threading.Interlocked 를 사용해 Non-Blocking 동기 처리를 수행하는 CAS_Lock 클래스를 구현하고 스레드가 동시에 위 Cas_Lock 클래스를 사요하여 동기화 처리를 한 코드이다. 위 코드를 실행하면 1초마다 각 스레드가 순차적으로 lock 상태에 따라 Worker() 메서드의 내부 코드를 처다
+위와 같이 System.Threading.Interlocked 를 사용해 Non-Blocking 동기 처리를 수행하는 CAS_Lock 클래스를 구현하고 스레드가 동시에 위 Cas_Lock 클래스를 사요하여 동기화 처리를 한 코드이다. 위 코드를 실행하면 1초마다 각 스레드가 순차적으로 lock 상태에 따라 Worker() 메서드의 내부 코드를 처리 하게 된다.
+
+
+이처럼 스레드가 Lock 처리 되어 있는 구간에 진입 시 lock 대기열로 진입하지 않고 계속해서 lock이 해제되었는지 무한 체크하는 방식으로 동기화 처리가 진행된다. 하지만 이런 방법은 보호하려는 임계구간이 짧으면서도 한 스레드가 오랫동안 머물지 않는 처리에서 효과 적으로 사용될 수 있다.
