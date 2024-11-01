@@ -8,11 +8,11 @@ cd MinimalApiSample
 
 ## API 서버 만들기
 dotnet new web -n MinimalApiSample.Api
-dotnet add MinimalApiSample.Api package System.Text.Json
-dotnet add MinimalApiSample.Api package Swashbuckle.AspNetCore
-dotnet add MinimalApiSample.Api package Microsoft.AspNetCore.OpenApi
-dotnet add MinimalApiSample.Api package Microsoft.EntityFrameworkCore.Tools
-dotnet add MinimalApiSample.Api package Microsoft.EntityFrameworkCore
+dotnet add package System.Text.Json
+dotnet add package Swashbuckle.AspNetCore
+dotnet add package Microsoft.AspNetCore.OpenApi
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Microsoft.EntityFrameworkCore
 dotnet add MinimalApiSample.Api package Npgsql.EntityFrameworkCore.PostgreSQL
 dotnet add MinimalApiSample.Api package NMySql.EntityFrameworkCore
 
