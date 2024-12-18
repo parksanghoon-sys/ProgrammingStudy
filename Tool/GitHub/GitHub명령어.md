@@ -164,6 +164,7 @@
 
 * git rebase -i Head~[갯수] : 특정갯수 를 수정하고싶으면 reword를 입력하여 수정한
 * git commit --amend : 가장최근 커밋을 수정한다
+* git reset --soft HEAD~1 : state는 보존하고 커밋을 돌린다
 
 ---
 
