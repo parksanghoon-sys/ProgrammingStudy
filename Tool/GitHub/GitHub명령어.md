@@ -205,14 +205,18 @@
 
 Merge와는 다르게 이름 그대로 브런치의 공통 조상이 되는 base를 다른 브런치의 커밋 지점으로 바꾸는것이다.
 
-1. 수정한 브런치로 체크아웃을 한다.
-2. > git rebase master
+1. git checkout -b feature/test
+2. > 해당 브런치에서 커밋 3개작업
    >
-3. 그럼 완료?
+3. git rebase -i HEAD~3
+4. 커밋 확인하면서 사용하지 않는 커밋은 'pick' 을 's'로 변경
+5. 이후 vi 로 commit 수정
+6. 합칠 브런치로와서 merge 작업 후 push
 
 * 모든 충돌을 수동으로 해결해주고, git rebase --continue를 입력해줘
 * 이 커밋을 건너뛰려면 git rebase --skip을 입력해
 * 중단하고 이전 상태로 돌아가려면 git rebase --abort를 입력해
+* git rebase -i master(or main) `<other feature branch>`
 
 ---
 
