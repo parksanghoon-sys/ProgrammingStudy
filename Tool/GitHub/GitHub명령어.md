@@ -220,6 +220,37 @@ Merge와는 다르게 이름 그대로 브런치의 공통 조상이 되는 base
 
 ---
 
+## git prune
+
+### 사용하지 않는 이미지 삭제
+
+* **docker image prune** : 사용하지 않는 이미지를 삭제합니다.
+* **docker image prune -a** : 사용하지 않는 모든 이미지를 삭제합니다.
+* **docker image prune -f** : 삭제를 확인하지 않고 강제로 삭제합니다.
+* **docker rmi $(docker images -q --filter "dangling=true")** : 사용하지 않는 이미지들을 삭제합니다.
+
+### 사용하지 않는 컨테이너 삭제
+
+* **docker container prune** : 중지된 컨테이너를 삭제합니다.
+* **docker container prune -f** : 삭제를 확인하지 않고 강제로 삭제합니다.
+* **docker rm $(docker ps -aq --filter status=exited)** : 중지된 컨테이너를 삭제합니다.
+
+### 사용하지 않는 볼륨 삭제
+
+* **docker volume prune** : 사용하지 않는 볼륨을 삭제합니다.
+* **docker volume prune -f** : 삭제를 확인하지 않고 강제로 삭제합니다.
+
+### 사용하지 않는 네트워크 삭제
+
+* **docker network prune** : 사용하지 않는 네트워크를 삭제합니다.
+* **docker network prune -f** : 삭제를 확인하지 않고 강제로 삭제합니다.
+
+### 모든 사용하지 않는 리소스 삭제
+
+* **docker system prune** : 사용하지 않는 모든 리소스(이미지, 컨테이너, 볼륨, 네트워크)를 삭제합니다.
+* **docker system prune -a** : 사용하지 않는 모든 이미지와 중지된 모든 컨테이너를 삭제합니다.
+* **docker system prune -f** : 삭제를 확인하지 않고 강제로 삭제합니다.
+
 ## 브랜치 병함 Merge VS Rebase
 
 Merge의 경우 히스토리란 작업한 내용의 사실을 기록한것이다. Merge로 브런치를 병합하게되면 커밋내역에 Merge commit이 추가로 남는다. 따라서 Merge를 사용하면 브런치가 생기고 병합되는 모든 작업 내용을 그대로 기록하게 된다.
