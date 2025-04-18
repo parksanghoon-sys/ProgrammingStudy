@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "e8bc0933724352bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebab73120b5b236e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a33191b7e028e285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04. 마이그레이션 명령어"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33f1e03c595043fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "256b11666422d5de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c63d3a43d94551b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "fc0e442b0347404d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "ffa319bf6e952737",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6dc5364784f008f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ae591f45747d121",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65f9690076fcbdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NetWork/Switch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Switch 의 백링크"
+            }
+          },
+          {
+            "id": "3345a0733d8a7a18",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NetWork/Switch.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Switch 의 나가는 링크"
+            }
+          },
+          {
+            "id": "1baa6b7ab7de72ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "86248e0b3103058c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NetWork/Switch.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Switch 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "a33191b7e028e285",
+  "lastOpenFiles": [
+    "Database/PostgresSQL/계정 권한설정.md",
+    "Algorithm/정렬알고리즘.md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "무제",
+    "Database/PostgresSQL",
+    "Database",
+    "Tool/Docker/4.Docker_Cmd.md",
+    "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
+    "Language/CSharp/EF_Core_Study/01.시작하기.md",
+    "Language/CSharp/EF_Core_Study/02.엔터티.md",
+    "Language/CSharp/Thread/2.멀티스레딩_동기화종류.md",
+    "Language/CSharp/Thread/세마포어와 동기화의 관계.md",
+    "Language/CSharp/C Sharp 프로그램의 실행 과정.md",
+    "Language/CSharp/Thread/CLR의_동기화_스레드.md",
+    "Etc/RTC.md",
+    "Tool/Docker/5.Docker_Cmd_Image.md",
+    "NetWork/Switch.md",
+    "NetWork/MQTT.md",
+    "CS/멀티쓰레드와 비동기 IO에 대해.md",
+    "README.md",
+    "무제.canvas",
+    "Language/CSharp/Thread/1.Thread_기본.md",
+    "CS/코루틴이란.md"
+  ]
+}
