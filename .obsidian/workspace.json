@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+                "file": "Web/ASP.Net_Core/미들웨어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04. 마이그레이션 명령어"
+              "title": "미들웨어"
             }
           }
         ]
@@ -170,28 +170,42 @@
   },
   "active": "a33191b7e028e285",
   "lastOpenFiles": [
-    "Database/PostgresSQL/계정 권한설정.md",
-    "Algorithm/정렬알고리즘.md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "Pasted image 20250422150929.png",
+    "Web/ASP.Net_Core/tool.md",
+    "Web/ASP.Net_Core/미들웨어.md",
+    "SoftWare_Design/Images/결합도.png.md",
+    "SoftWare_Design/Images",
+    "SoftWare_Design",
+    "Web/ASP.Net_Core/CleanArchitecture/4.CORS및 Automapper.md",
+    "Web/ASP.Net_Core/CleanArchitecture/3.CleanArchitecture.md",
+    "Web/ASP.Net_Core/CleanArchitecture/2. 지향해야할_코드작성.md",
+    "Web/ASP.Net_Core/CleanArchitecture/1.SOLID.md",
+    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_3_Paging_변수이해하기.md",
+    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_2.StartPagne.md",
+    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_1_PagingControlGroup.md",
+    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/페이징_컨트롤_이해.md",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/2.인증서.md",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/1.Https관련.md",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638112780.png",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686636739088.png",
+    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
+    "Web/ASP.Net_Core/ASP.Core강의/3.1.CodeFirst.md",
+    "Web/ASP.Net_Core/ASP.Core강의/2.1.EntityFrameworkCore개요.md",
+    "Web/ASP.Net_Core/ASP.Core강의/1.3.의존성패턴.md",
+    "Web/ASP.Net_Core/ASP.Core강의/1.2.MVC 패턴.md",
+    "Web/ASP.Net_Core/ASP.Core강의/1.1.Asp.NetCore개요.md",
+    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_인터페이스분리원칙.md",
+    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_의존관계역전원칙.md",
+    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_단일책임.md",
+    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_개방폐쇄의원칙.md",
+    "CS/SoftWare_Design/결합도,응집도.md",
+    "CS/SoftWare_Design/MultiThread구현_주의할점.md",
+    "CS/SoftWare_Design/Microservices.md",
+    "Pramming용어/컴포넌트.webp",
     "무제",
     "Database/PostgresSQL",
     "Database",
-    "Tool/Docker/4.Docker_Cmd.md",
-    "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
-    "Language/CSharp/EF_Core_Study/01.시작하기.md",
-    "Language/CSharp/EF_Core_Study/02.엔터티.md",
-    "Language/CSharp/Thread/2.멀티스레딩_동기화종류.md",
-    "Language/CSharp/Thread/세마포어와 동기화의 관계.md",
-    "Language/CSharp/C Sharp 프로그램의 실행 과정.md",
-    "Language/CSharp/Thread/CLR의_동기화_스레드.md",
-    "Etc/RTC.md",
-    "Tool/Docker/5.Docker_Cmd_Image.md",
-    "NetWork/Switch.md",
-    "NetWork/MQTT.md",
-    "CS/멀티쓰레드와 비동기 IO에 대해.md",
-    "README.md",
-    "무제.canvas",
-    "Language/CSharp/Thread/1.Thread_기본.md",
-    "CS/코루틴이란.md"
+    "무제.canvas"
   ]
 }
