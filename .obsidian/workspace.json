@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/ASP.Net_Core/미들웨어.md",
+                "file": "Data분석/ETL이란.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "미들웨어"
+              "title": "ETL이란"
+            }
+          },
+          {
+            "id": "2526b097ffdd67f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,11 +183,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a33191b7e028e285",
+  "active": "2526b097ffdd67f0",
   "lastOpenFiles": [
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+    "Etc/DDS/01.DDS_기술개요.md",
+    "Etc/DDS/02.1.DDS_장점.md",
+    "Etc/DDS/02.2.용어.md",
+    "Etc/DDS/05.RTPS_Behavior.md",
+    "Etc/DDS/04.Topic과_Instance.md",
+    "Etc/DDS/image/05.RTPS_Behavior/1690871374124.png",
+    "Etc/DDS/03.2.DDS_QoS의_종류_및_정의.md",
+    "Etc/DDS/03.1.DDS_Qos.md",
+    "Database/PostgresSQL/계정 권한설정.md",
+    "OS/1.Process간_통신.md",
+    "Web/ASP.Net_Core/미들웨어.md",
     "Pasted image 20250422150929.png",
     "Web/ASP.Net_Core/tool.md",
-    "Web/ASP.Net_Core/미들웨어.md",
     "SoftWare_Design/Images/결합도.png.md",
     "SoftWare_Design/Images",
     "SoftWare_Design",
@@ -192,16 +219,6 @@
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
     "Web/ASP.Net_Core/ASP.Core강의/3.1.CodeFirst.md",
     "Web/ASP.Net_Core/ASP.Core강의/2.1.EntityFrameworkCore개요.md",
-    "Web/ASP.Net_Core/ASP.Core강의/1.3.의존성패턴.md",
-    "Web/ASP.Net_Core/ASP.Core강의/1.2.MVC 패턴.md",
-    "Web/ASP.Net_Core/ASP.Core강의/1.1.Asp.NetCore개요.md",
-    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_인터페이스분리원칙.md",
-    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_의존관계역전원칙.md",
-    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_단일책임.md",
-    "CS/SoftWare_Design/SOLID원칙/SOLID원칙_개방폐쇄의원칙.md",
-    "CS/SoftWare_Design/결합도,응집도.md",
-    "CS/SoftWare_Design/MultiThread구현_주의할점.md",
-    "CS/SoftWare_Design/Microservices.md",
     "Pramming용어/컴포넌트.webp",
     "무제",
     "Database/PostgresSQL",
