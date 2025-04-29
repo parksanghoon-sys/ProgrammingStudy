@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+                "file": "Web/웹서버 종류와 장점 단점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정"
+              "title": "웹서버 종류와 장점 단점"
             }
           }
         ],
@@ -185,8 +185,12 @@
   },
   "active": "2526b097ffdd67f0",
   "lastOpenFiles": [
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "Web/Blazor/Content/Blazor_RenderMode.md",
+    "Web/3.CSR/SSR/SSG란.md",
+    "Web/웹서버 종류와 장점 단점.md",
+    "Web/3.API.md",
     "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
     "Etc/DDS/01.DDS_기술개요.md",
     "Etc/DDS/02.1.DDS_장점.md",
     "Etc/DDS/02.2.용어.md",
@@ -211,14 +215,10 @@
     "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_2.StartPagne.md",
     "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_1_PagingControlGroup.md",
     "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/페이징_컨트롤_이해.md",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/2.인증서.md",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/1.Https관련.md",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638112780.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686636739088.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
-    "Web/ASP.Net_Core/ASP.Core강의/3.1.CodeFirst.md",
-    "Web/ASP.Net_Core/ASP.Core강의/2.1.EntityFrameworkCore개요.md",
     "Pramming용어/컴포넌트.webp",
     "무제",
     "Database/PostgresSQL",
