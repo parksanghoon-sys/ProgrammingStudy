@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RISC-V 어셈블리 코드 가이드.md",
+                "file": "Etc/RTC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RISC-V 어셈블리 코드 가이드"
+              "title": "RTC"
             }
           }
         ],
@@ -199,8 +199,10 @@
   },
   "active": "ea69b206bc3e0d24",
   "lastOpenFiles": [
-    "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
+    "Etc/Visulstudio 인증키 만들기.md",
+    "Etc/RTC.md",
     "RISC-V 어셈블리 코드 가이드.md",
+    "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
     "Tool/GitHub/좋은_Commit_메세지_작성.md",
     "Tool/GitHub/branch_명령규칙_및_전략.md",
     "Tool/GitHub/Commit수정.md",
@@ -226,8 +228,6 @@
     "OS/1.Process간_통신.md",
     "Web/ASP.Net_Core/미들웨어.md",
     "Pasted image 20250422150929.png",
-    "Web/ASP.Net_Core/tool.md",
-    "SoftWare_Design/Images/결합도.png.md",
     "SoftWare_Design/Images",
     "SoftWare_Design",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
