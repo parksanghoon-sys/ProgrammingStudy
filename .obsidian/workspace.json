@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+                "file": "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정"
+              "title": "어셈블리 명령어 모음 (x86_x64 아키텍처 기준)"
+            }
+          },
+          {
+            "id": "ea69b206bc3e0d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/CSharp/Linq/Linq 자주 사용되는 예제 와 사용 방법.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linq 자주 사용되는 예제 와 사용 방법"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,44 +197,44 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2526b097ffdd67f0",
+  "active": "ea69b206bc3e0d24",
   "lastOpenFiles": [
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "Language/CSharp/Linq/LINQ_사용법_Where.md",
+    "Language/CSharp/Linq/Linq 자주 사용되는 예제 와 사용 방법.md",
+    "Language/CSharp/Linq/LINQ_사용법_Select.md",
+    "Language/CSharp/Linq/LINQ_사용법_정렬연산자.md",
+    "Language/CSharp/Linq/LINQ_사용법_분할연산자.md",
+    "Tool/GitHub/git의 저장소의 현재까지 커밋한 내용을 내가 메모장에 옮기고싶은데 방법.md",
+    "Etc/RTC.md",
+    "Etc/Visulstudio 인증키 만들기.md",
+    "RISC-V 어셈블리 코드 가이드.md",
+    "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
+    "Tool/GitHub/좋은_Commit_메세지_작성.md",
+    "Tool/GitHub/branch_명령규칙_및_전략.md",
+    "Tool/GitHub/Commit수정.md",
+    "Tool/GitHub/GitFlow.md",
+    "Tool/GitHub/GitHub명령어.md",
+    "Tool/GitHub/Git메세지검색.md",
+    "Web/웹서버 종류와 장점 단점.md",
+    "Etc/Assembly",
+    "Web/Blazor/Content/Blazor_RenderMode.md",
+    "Web/3.CSR/SSR/SSG란.md",
+    "Web/3.API.md",
     "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
     "Etc/DDS/01.DDS_기술개요.md",
     "Etc/DDS/02.1.DDS_장점.md",
     "Etc/DDS/02.2.용어.md",
     "Etc/DDS/05.RTPS_Behavior.md",
-    "Etc/DDS/04.Topic과_Instance.md",
     "Etc/DDS/image/05.RTPS_Behavior/1690871374124.png",
-    "Etc/DDS/03.2.DDS_QoS의_종류_및_정의.md",
-    "Etc/DDS/03.1.DDS_Qos.md",
-    "Database/PostgresSQL/계정 권한설정.md",
-    "OS/1.Process간_통신.md",
-    "Web/ASP.Net_Core/미들웨어.md",
     "Pasted image 20250422150929.png",
-    "Web/ASP.Net_Core/tool.md",
-    "SoftWare_Design/Images/결합도.png.md",
     "SoftWare_Design/Images",
     "SoftWare_Design",
-    "Web/ASP.Net_Core/CleanArchitecture/4.CORS및 Automapper.md",
-    "Web/ASP.Net_Core/CleanArchitecture/3.CleanArchitecture.md",
-    "Web/ASP.Net_Core/CleanArchitecture/2. 지향해야할_코드작성.md",
-    "Web/ASP.Net_Core/CleanArchitecture/1.SOLID.md",
-    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_3_Paging_변수이해하기.md",
-    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_2.StartPagne.md",
-    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/Pagind을 _논리적으로_이해하자_1_PagingControlGroup.md",
-    "Web/ASP.Net_Core/ASP.Net_Core_페이징컨트롤_강의/페이징_컨트롤_이해.md",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/2.인증서.md",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/1.Https관련.md",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638112780.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686636739088.png",
     "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
-    "Web/ASP.Net_Core/ASP.Core강의/3.1.CodeFirst.md",
-    "Web/ASP.Net_Core/ASP.Core강의/2.1.EntityFrameworkCore개요.md",
     "Pramming용어/컴포넌트.webp",
-    "무제",
     "Database/PostgresSQL",
     "Database",
     "무제.canvas"
