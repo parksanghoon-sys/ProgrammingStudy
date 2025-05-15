@@ -7,6 +7,6 @@
 5. web 지식
 6. 클론코딩
 7. Tool 사용법
-  * Docker
-  * Github
-  * UML
+   * Docker
+   * Github
+   * UML
