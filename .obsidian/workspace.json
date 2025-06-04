@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "e8bc0933724352bf",
+    "id": "06bfa98148c7874d",
     "type": "split",
     "children": [
       {
-        "id": "ebab73120b5b236e",
+        "id": "88556ea6798c9477",
         "type": "tabs",
         "children": [
           {
-            "id": "a33191b7e028e285",
+            "id": "8c5fd520e96c81f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/CORS 란.md",
+                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CORS 란"
-            }
-          },
-          {
-            "id": "2526b097ffdd67f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "어셈블리 명령어 모음 (x86_x64 아키텍처 기준)"
+              "title": "04. 마이그레이션 명령어"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "33f1e03c595043fb",
+    "id": "e478d3048b04777e",
     "type": "split",
     "children": [
       {
-        "id": "256b11666422d5de",
+        "id": "7369af266353c2a9",
         "type": "tabs",
         "children": [
           {
-            "id": "c63d3a43d94551b7",
+            "id": "7ebf12e8ff68a12f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +48,7 @@
             }
           },
           {
-            "id": "fc0e442b0347404d",
+            "id": "29471769b8137fdd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +65,7 @@
             }
           },
           {
-            "id": "ffa319bf6e952737",
+            "id": "57621c17093e8db5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "6dc5364784f008f5",
+    "id": "f140ff857e30c0f9",
     "type": "split",
     "children": [
       {
-        "id": "8ae591f45747d121",
+        "id": "842abfd4373efa46",
         "type": "tabs",
         "children": [
           {
-            "id": "d65f9690076fcbdb",
+            "id": "22da068f1560424b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NetWork/Switch.md",
+                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Switch 의 백링크"
+              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 백링크"
             }
           },
           {
-            "id": "3345a0733d8a7a18",
+            "id": "8d86012433ebdd52",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NetWork/Switch.md",
+                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Switch 의 나가는 링크"
+              "title": "04. 마이그레이션 명령어 의 나가는 링크"
             }
           },
           {
-            "id": "1baa6b7ab7de72ec",
+            "id": "ddf98996e0c904b2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,21 +137,22 @@
             }
           },
           {
-            "id": "86248e0b3103058c",
+            "id": "67cebddebf3f53c6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "NetWork/Switch.md",
+                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Switch 의 개요"
+              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,47 +169,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a33191b7e028e285",
+  "active": "8c5fd520e96c81f0",
   "lastOpenFiles": [
-    "Web/8.CQRS아키택처.md",
-    "Web/CORS 란.md",
-    "NetWork/비대칭키 전달 방식.md",
-    "Language/CSharp/힙_할당을_줄이기_위한_기능.md",
-    "wpf/ContentPresenter란.md",
-    "wpf/DependencyProperty.md",
-    "wpf/DependencyProperty(의존성 속성).md",
-    "wpf/RelativeSourceBinding.md",
-    "wpf/RoutedEvent.md",
-    "wpf/WPF란.md",
-    "wpf/WPF_Controls.md",
-    "README.md",
-    "2025-05-15.md",
-    "무제.canvas",
-    "Pasted image 20250422150929.png",
-    "Language/CSharp/값_타입과_참조타입_방싱_언박싱.md",
-    "Language/CSharp/공변성_반공변성.md",
-    "Language/CSharp/리플렉션.md",
-    "Language/CSharp/에트리뷰트.md",
-    "Language/CSharp/추상클래스_인터페이스.md",
-    "Language/CSharp/Action_Func_Predicate.md",
-    "Language/CSharp/C Sharp 프로그램의 실행 과정.md",
-    "Language/CSharp/Linq.md",
-    "Language/CSharp/Lock-Free_Interlocked 사용 (CAS).md",
-    "Language/CSharp/Images/DelgateState.png",
-    "Tool/GitHub/좋은_Commit_메세지_작성.md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-    "Tool/GitHub/SubModele 사용법.md",
     "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
-    "Etc/Assembly",
-    "Etc/DDS/image/05.RTPS_Behavior/1690871374124.png",
-    "SoftWare_Design/Images",
-    "SoftWare_Design",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638112780.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686636739088.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
-    "Pramming용어/컴포넌트.webp",
-    "Database/PostgresSQL",
-    "Database"
+    "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md"
   ]
 }
