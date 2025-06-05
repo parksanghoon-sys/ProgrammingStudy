@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "06bfa98148c7874d",
+    "type": "split",
+    "children": [
+      {
+        "id": "88556ea6798c9477",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5fd520e96c81f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04. 마이그레이션 명령어"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e478d3048b04777e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7369af266353c2a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ebf12e8ff68a12f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "29471769b8137fdd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "57621c17093e8db5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f140ff857e30c0f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "842abfd4373efa46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22da068f1560424b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 백링크"
+            }
+          },
+          {
+            "id": "8d86012433ebdd52",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "04. 마이그레이션 명령어 의 나가는 링크"
+            }
+          },
+          {
+            "id": "ddf98996e0c904b2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "67cebddebf3f53c6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 개요"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "8c5fd520e96c81f0",
+  "lastOpenFiles": [
+    "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
+    "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md"
+  ]
+}
