@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "88556ea6798c9477",
+        "id": "b9913ad053e01c35",
         "type": "tabs",
         "children": [
           {
-            "id": "8c5fd520e96c81f0",
+            "id": "fad8e008b386f954",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "04. 마이그레이션 명령어"
+              "title": "새 탭"
             }
           }
         ]
@@ -169,10 +165,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8c5fd520e96c81f0",
+  "active": "fad8e008b386f954",
   "lastOpenFiles": [
+    "CS/SoftWare_Design/Design_Pattern/02.프로토 타입.md",
+    "CS/SoftWare_Design/Design_Pattern/1.Singleton.md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
+    "CS/SoftWare_Design/Design_Pattern/0.디자인 패턴.md",
+    "CS/SoftWare_Design/MultiThread구현_주의할점.md",
+    "CS/SoftWare_Design/Microservices.md",
+    "CS/CPU_엿보기.md",
+    "CS/Thread/2.Thread_종료.md",
+    "CS/Thread/1.Thread_Start_Join.md",
+    "CS/SoftWare_Design/Design_Pattern",
     "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
-    "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md"
+    "CS/팬인(Fan-in)과 팬아웃(Fan-out).md"
   ]
 }
