@@ -23,7 +23,7 @@ footer
 * feat : 새로운 기능 추가
 * fix : 버그 수정
 * docs : 문서수정
-* style : 코드 formatting, 세미클론 누락, 코드변경이 없는경우
+* style(UI변경부분): 코드 포맷팅 (세미콜론, 들여쓰기 등) , 기능외 UI만 변경시
 * refactor : 코드 리펙토리
 * test : 테스트 코드, 리펙토링 테스트 코드 추가 (프로덕션 코드 변경 하지 않는다)
 * chore : 빌드 업무 수정, 패키지 매니저 수정
@@ -33,6 +33,8 @@ footer
 * remove : 파일을 삭제하는 경우
 * !BREAKING CHANGE : 커다란 변경의 경우
 * !HOTFIX : 급하게 치명적인 버그를 고칠경우
+* perf: 성능 개선
+* ci: CI/CD 관련 변경
 
 ## 예시
 ---

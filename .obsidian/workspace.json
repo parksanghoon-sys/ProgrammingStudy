@@ -11,10 +11,14 @@
             "id": "b9d2bbfd2e003fab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tool/GitHub/좋은_Commit_메세지_작성.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "좋은_Commit_메세지_작성"
             }
           }
         ]
@@ -166,6 +170,13 @@
   },
   "active": "b9d2bbfd2e003fab",
   "lastOpenFiles": [
+    "Tool/GitHub/이슈와 PR 작성할 때.md",
+    "Tool/GitHub/풀 리퀘스트 작성법.md",
+    "Tool/GitHub/ISSUE 작성법.md",
+    "Tool/Synology/2.ssh접속.md",
+    "Tool/Synology/1.포트포워딩.md",
+    "Tool/Synology/3.역방향_Reverse_Proxy.md",
+    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
     "Data분석/ETL이란.md",
     "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
     "Language/CSharp/고성능 socket.md",
@@ -186,13 +197,6 @@
     "Tool/GitHub/Git메세지검색.md",
     "Web/웹서버 종류와 장점 단점.md",
     "Etc/Assembly",
-    "Web/Blazor/Content/Blazor_RenderMode.md",
-    "Web/3.CSR/SSR/SSG란.md",
-    "Web/3.API.md",
-    "Web/9. 비대칭키를 이용한 API 통신에서 암호화 복호화 과정.md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-    "Etc/DDS/01.DDS_기술개요.md",
-    "Etc/DDS/02.1.DDS_장점.md",
     "Etc/DDS/image/05.RTPS_Behavior/1690871374124.png",
     "Pasted image 20250422150929.png",
     "SoftWare_Design/Images",
