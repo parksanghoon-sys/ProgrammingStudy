@@ -1,28 +1,24 @@
 {
   "main": {
-    "id": "06bfa98148c7874d",
+    "id": "a10e9ed9196cbe9a",
     "type": "split",
     "children": [
       {
-        "id": "b9913ad053e01c35",
+        "id": "3684e2c451d3efc5",
         "type": "tabs",
         "children": [
           {
-            "id": "fad8e008b386f954",
+            "id": "ae5641f2643a9342",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tool/GitHub/좋은_Commit_메세지_작성.md",
+                "file": "Pramming용어/Component.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "좋은_Commit_메세지_작성"
-=======
-              "title": "새 탭"
->>>>>>> ff55df46cb04fb269f8b23a309473ae8ad0f510c
+              "title": "Component"
             }
           }
         ]
@@ -31,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e478d3048b04777e",
+    "id": "3efd272af10a65e6",
     "type": "split",
     "children": [
       {
-        "id": "7369af266353c2a9",
+        "id": "af463a8166a17aef",
         "type": "tabs",
         "children": [
           {
-            "id": "7ebf12e8ff68a12f",
+            "id": "f4b8ebc260d7c035",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +48,7 @@
             }
           },
           {
-            "id": "29471769b8137fdd",
+            "id": "c465e6447886ca72",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -69,7 +65,7 @@
             }
           },
           {
-            "id": "57621c17093e8db5",
+            "id": "d4af775b17ba207e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "f140ff857e30c0f9",
+    "id": "81b1ffb7d1a82035",
     "type": "split",
     "children": [
       {
-        "id": "842abfd4373efa46",
+        "id": "f38f6f130e6fd7a9",
         "type": "tabs",
         "children": [
           {
-            "id": "22da068f1560424b",
+            "id": "e46d143f84d865e6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 백링크"
+              "title": "백링크"
             }
           },
           {
-            "id": "8d86012433ebdd52",
+            "id": "398244f73cef05cd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "04. 마이그레이션 명령어 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "ddf98996e0c904b2",
+            "id": "2fb0d609e44cc178",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,22 +135,20 @@
             }
           },
           {
-            "id": "67cebddebf3f53c6",
+            "id": "2f2b089284b195c2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/팬인(Fan-in)과 팬아웃(Fan-out).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "팬인(Fan-in)과 팬아웃(Fan-out) 의 개요"
+              "title": "개요"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,61 +165,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fad8e008b386f954",
+  "active": "f4b8ebc260d7c035",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Tool/GitHub/이슈와 PR 작성할 때.md",
-    "Tool/GitHub/풀 리퀘스트 작성법.md",
-    "Tool/GitHub/ISSUE 작성법.md",
-    "Tool/Synology/2.ssh접속.md",
-    "Tool/Synology/1.포트포워딩.md",
-    "Tool/Synology/3.역방향_Reverse_Proxy.md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-    "Data분석/ETL이란.md",
-    "Etc/Assembly/어셈블리 명령어 모음 (x86_x64 아키텍처 기준).md",
-    "Language/CSharp/고성능 socket.md",
-    "Language/CSharp/Linq/Linq 자주 사용되는 예제 와 사용 방법.md",
-    "Language/CSharp/Linq/LINQ_사용법_Where.md",
-    "Language/CSharp/Linq/LINQ_사용법_Select.md",
-    "Language/CSharp/Linq/LINQ_사용법_정렬연산자.md",
-    "Language/CSharp/Linq/LINQ_사용법_분할연산자.md",
-    "Tool/GitHub/git의 저장소의 현재까지 커밋한 내용을 내가 메모장에 옮기고싶은데 방법.md",
-    "Etc/RTC.md",
-    "Etc/Visulstudio 인증키 만들기.md",
-    "RISC-V 어셈블리 코드 가이드.md",
-    "Tool/GitHub/좋은_Commit_메세지_작성.md",
-    "Tool/GitHub/branch_명령규칙_및_전략.md",
-    "Tool/GitHub/Commit수정.md",
-    "Tool/GitHub/GitFlow.md",
-    "Tool/GitHub/GitHub명령어.md",
-    "Tool/GitHub/Git메세지검색.md",
-    "Web/웹서버 종류와 장점 단점.md",
-    "Etc/Assembly",
-    "Etc/DDS/image/05.RTPS_Behavior/1690871374124.png",
-    "Pasted image 20250422150929.png",
-    "SoftWare_Design/Images",
-    "SoftWare_Design",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638127193.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/2.인증서/1686638112780.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686636739088.png",
-    "Web/ASP.Net_Core/Asp.Net Core’s What & Why/image/1.Https관련/1686635728207.png",
-    "Pramming용어/컴포넌트.webp",
-    "Database/PostgresSQL",
-    "Database",
-    "무제.canvas"
-=======
-    "CS/SoftWare_Design/Design_Pattern/02.프로토 타입.md",
-    "CS/SoftWare_Design/Design_Pattern/1.Singleton.md",
-    "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-    "CS/SoftWare_Design/Design_Pattern/0.디자인 패턴.md",
-    "CS/SoftWare_Design/MultiThread구현_주의할점.md",
-    "CS/SoftWare_Design/Microservices.md",
-    "CS/CPU_엿보기.md",
-    "CS/Thread/2.Thread_종료.md",
-    "CS/Thread/1.Thread_Start_Join.md",
-    "CS/SoftWare_Design/Design_Pattern",
-    "Language/CSharp/EF_Core_Study/03.마이그레이션.md",
-    "CS/팬인(Fan-in)과 팬아웃(Fan-out).md"
->>>>>>> ff55df46cb04fb269f8b23a309473ae8ad0f510c
+    "Pramming용어/컴포넌트.webp"
   ]
 }
