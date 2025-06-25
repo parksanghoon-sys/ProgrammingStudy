@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b9913ad053e01c35",
+        "id": "b9201e08426e3390",
         "type": "tabs",
         "children": [
           {
-            "id": "fad8e008b386f954",
+            "id": "71ffa703d7441a71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tool/VxWorks/VxWorks 7 Basic Command.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "VxWorks 7 Basic Command"
             }
           }
         ]
@@ -165,12 +169,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fad8e008b386f954",
+  "active": "71ffa703d7441a71",
   "lastOpenFiles": [
+    "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
+    "Tool/VxWorks/VxWorks 7 Basic Command.md",
+    "Tool/VxWorks/Command.md",
+    "Language/CSharp/Thread/5.async_awit.md",
+    "Language/CSharp/Thread/2.멀티스레딩_동기화종류.md",
+    "CS/SoftWare_Design/Design_Pattern/03.Factory Pattern.md",
+    "CS/SoftWare_Design/Design_Pattern/00.디자인 패턴.md",
+    "CS/SoftWare_Design/Design_Pattern/01.Singleton.md",
     "CS/SoftWare_Design/Design_Pattern/02.프로토 타입.md",
-    "CS/SoftWare_Design/Design_Pattern/1.Singleton.md",
+    "Web/10.Authentication(인증)과 Authorization(권한부여).md",
     "Language/CSharp/EF_Core_Study/04. 마이그레이션 명령어.md",
-    "CS/SoftWare_Design/Design_Pattern/0.디자인 패턴.md",
     "CS/SoftWare_Design/MultiThread구현_주의할점.md",
     "CS/SoftWare_Design/Microservices.md",
     "CS/CPU_엿보기.md",
