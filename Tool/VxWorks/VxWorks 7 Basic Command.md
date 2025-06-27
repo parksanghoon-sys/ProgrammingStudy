@@ -130,7 +130,7 @@
 - **printErrno()** - 지정된 오류 상태 값의 정의 출력
 - **printLogo()** - Tornado 로고 표시
 - **reboot()** - 네트워크 장치 재설정 및 부트 ROM으로 제어 전송
-
+- sysClkRateGet() - 현재 1초에 몇 tick으로 설정되었나 확인가능
 ## 참고사항
 
 더 자세한 정보는 Tornado 설치 디렉터리의 `docs->tornado->tools->windsh.html`을 참조하세요.

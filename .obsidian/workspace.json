@@ -11,12 +11,14 @@
             "id": "203c91967ef65491",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250422150929.png"
+                "file": "Tool/VxWorks/VxWorks 7 Basic Command.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250422150929"
+              "icon": "lucide-file",
+              "title": "VxWorks 7 Basic Command"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20250422150929.png",
+                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Pasted image 20250422150929 의 백링크"
+              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 백링크"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20250422150929.png",
+                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20250422150929 의 나가는 링크"
+              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 나가는 링크"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20250422150929.png",
+                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250422150929 의 개요"
+              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 개요"
             }
           }
         ]
@@ -166,8 +168,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "274d85b58d64f3db",
+  "active": "203c91967ef65491",
   "lastOpenFiles": [
+    "Tool/puml/UML_Class_Diagram_작성법.md",
+    "Tool/image/UML_Class_Diagram_작성법/1691416221639.png",
+    "Tool/image/UML_Class_Diagram_작성법/1691416108906.png",
+    "Tool/image/UML_Class_Diagram_작성법/1691416033228.png",
+    "Tool/Synology/3.역방향_Reverse_Proxy.md",
+    "Tool/Synology/1.포트포워딩.md",
+    "Tool/Synology/2.ssh접속.md",
+    "Tool/VxWorks/VxWorks 7 Basic Command.md",
+    "Tool/VxWorks/Command.md",
+    "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
+    "Pasted image 20250422150929.png",
     "README.md"
   ]
 }
