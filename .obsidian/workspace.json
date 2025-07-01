@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pramming용어/Component.md",
+                "file": "Language/CSharp/DelegateEventExample/Deleage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Component"
+              "title": "Deleage"
             }
           }
         ]
@@ -165,8 +165,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f4b8ebc260d7c035",
+  "active": "ae5641f2643a9342",
   "lastOpenFiles": [
+    "Tool/GitHub/좋은_Commit_메세지_작성.md",
+    "Language/CSharp/DelegateEventExample/Deleage.md",
+    "Pramming용어/Component.md",
     "Pramming용어/컴포넌트.webp"
   ]
 }
