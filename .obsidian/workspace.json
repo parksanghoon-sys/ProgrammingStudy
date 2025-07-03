@@ -1,32 +1,24 @@
 {
   "main": {
-    "id": "eebdadc666781f5e",
+    "id": "04f5701d0f83196e",
     "type": "split",
     "children": [
       {
-        "id": "8422c2630965db2c",
+        "id": "989b2765f451023b",
         "type": "tabs",
         "children": [
           {
-            "id": "203c91967ef65491",
+            "id": "ed634643698c1dc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Language/CSharp/DelegateEventExample/Deleage.md",
-=======
-                "file": "Tool/VxWorks/VxWorks 7 Basic Command.md",
->>>>>>> e234a3fb0be5d0052c5b08f4882eaa2b89cb3c2d
+                "file": "Language/C++/C++/구조체 패딩.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Deleage"
-=======
-              "title": "VxWorks 7 Basic Command"
->>>>>>> e234a3fb0be5d0052c5b08f4882eaa2b89cb3c2d
+              "title": "구조체 패딩"
             }
           }
         ]
@@ -35,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3be6fbc30c906dc9",
+    "id": "3889d79b7648b7b5",
     "type": "split",
     "children": [
       {
-        "id": "e8314a2acf5f204b",
+        "id": "3d46dd41d30f253a",
         "type": "tabs",
         "children": [
           {
-            "id": "274d85b58d64f3db",
+            "id": "f37904702877519e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +48,7 @@
             }
           },
           {
-            "id": "65fa169209a4bffb",
+            "id": "ac66f22914e66d7c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,7 +65,7 @@
             }
           },
           {
-            "id": "7db71176e5179935",
+            "id": "acaf91e0d49b57d8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "217546af20cbe5dc",
+    "id": "2b6707e3b289af41",
     "type": "split",
     "children": [
       {
-        "id": "d1cf1d7219a24bce",
+        "id": "764c0942fb83e35b",
         "type": "tabs",
         "children": [
           {
-            "id": "b0e6f154d991fe53",
+            "id": "3d2187d29466d5d5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
+                "file": "Language/C++/C++/구조체 패딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 백링크"
+              "title": "구조체 패딩 의 백링크"
             }
           },
           {
-            "id": "ef73981312bc9cc0",
+            "id": "bdca155ddf35531c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
+                "file": "Language/C++/C++/구조체 패딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 나가는 링크"
+              "title": "구조체 패딩 의 나가는 링크"
             }
           },
           {
-            "id": "b747afa8f238812d",
+            "id": "44448c9fb644fc7c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,18 +137,18 @@
             }
           },
           {
-            "id": "c28603591c36e3a2",
+            "id": "222ca8f82441870a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
+                "file": "Language/C++/C++/구조체 패딩.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법 의 개요"
+              "title": "구조체 패딩 의 개요"
             }
           }
         ]
@@ -176,28 +168,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-<<<<<<< HEAD
-  "active": "ae5641f2643a9342",
+  "active": "ed634643698c1dc1",
   "lastOpenFiles": [
-    "Tool/GitHub/좋은_Commit_메세지_작성.md",
-    "Language/CSharp/DelegateEventExample/Deleage.md",
-    "Pramming용어/Component.md",
-    "Pramming용어/컴포넌트.webp"
-=======
-  "active": "203c91967ef65491",
-  "lastOpenFiles": [
-    "Tool/puml/UML_Class_Diagram_작성법.md",
-    "Tool/image/UML_Class_Diagram_작성법/1691416221639.png",
-    "Tool/image/UML_Class_Diagram_작성법/1691416108906.png",
-    "Tool/image/UML_Class_Diagram_작성법/1691416033228.png",
-    "Tool/Synology/3.역방향_Reverse_Proxy.md",
-    "Tool/Synology/1.포트포워딩.md",
-    "Tool/Synology/2.ssh접속.md",
-    "Tool/VxWorks/VxWorks 7 Basic Command.md",
-    "Tool/VxWorks/Command.md",
-    "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
-    "Pasted image 20250422150929.png",
-    "README.md"
->>>>>>> e234a3fb0be5d0052c5b08f4882eaa2b89cb3c2d
+    "Language/C++/C++/구조체 패딩.md"
   ]
 }
