@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/C++/C++/구조체 패딩.md",
+                "file": "Tool/AI/Gemini CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "구조체 패딩"
+              "title": "Gemini CLI"
             }
           }
         ]
@@ -170,6 +170,9 @@
   },
   "active": "ed634643698c1dc1",
   "lastOpenFiles": [
-    "Language/C++/C++/구조체 패딩.md"
+    "Language/C++/C++/구조체 패딩.md",
+    "Tool/AI/Gemini CLI.md",
+    "Tool/AI",
+    "Tool/A.md"
   ]
 }
