@@ -706,4 +706,5 @@ MigrationBackup/
 .vscode/
 build/
 .codegpt/
->>>>>>> 7e3a9ba53e3541e5352ee5579f3ab465cfc162e2
+.obsidian/
+.vscode/
