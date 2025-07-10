@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tool/VxWorks/VxWorks 7 Basic Command.md",
+                "file": "Tool/Synology/윈도우에서 Robocopy 이용하여 복사 빠르게하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VxWorks 7 Basic Command"
+              "title": "윈도우에서 Robocopy 이용하여 복사 빠르게하기"
             }
           }
         ]
@@ -170,6 +170,18 @@
   },
   "active": "203c91967ef65491",
   "lastOpenFiles": [
+    "Tool/Synology/example/Window_Nas_Robcoppy.ps1",
+    "Tool/Synology/example/Window_Nas_Robcoppy.txt",
+    "Tool/Synology/example/새 텍스트 문서.txt",
+    "Tool/Synology/example/Nas_Window_Robocopy.ps1",
+    "Tool/Synology/example/Robocopy.ps1",
+    "Tool/Synology/example/Robocopy.ps",
+    "Tool/Synology/example",
+    "Tool/Synology/새 폴더",
+    "OS/Window/로그인제거.md",
+    "Tool/Synology/윈도우에서 Robocopy 이용하여 복사 빠르게하기.md",
+    "Tool/VxWorks/VxWorks 7 Basic Command.md",
+    "OS/Window",
     "Tool/puml/UML_Class_Diagram_작성법.md",
     "Tool/image/UML_Class_Diagram_작성법/1691416221639.png",
     "Tool/image/UML_Class_Diagram_작성법/1691416108906.png",
@@ -177,7 +189,6 @@
     "Tool/Synology/3.역방향_Reverse_Proxy.md",
     "Tool/Synology/1.포트포워딩.md",
     "Tool/Synology/2.ssh접속.md",
-    "Tool/VxWorks/VxWorks 7 Basic Command.md",
     "Tool/VxWorks/Command.md",
     "Tool/VxWorks/VxWorks 7 두 번째 네트워크 인터페이스 IP 설정 방법.md",
     "Pasted image 20250422150929.png",
