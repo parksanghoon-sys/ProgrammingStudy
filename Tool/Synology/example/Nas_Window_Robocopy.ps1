@@ -17,6 +17,6 @@ $robocopyArgs = @(
 )
 
 # 복사 시작
-Write-Host "복사 시작..."
+Write-Host "Coppy Start..."
 robocopy @robocopyArgs
-Write-Host "복사 완료!"
+Write-Host "Copy End!"
