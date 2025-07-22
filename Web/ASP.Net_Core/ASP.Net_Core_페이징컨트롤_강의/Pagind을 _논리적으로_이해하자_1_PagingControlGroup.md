@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PagingControlGroup
 ![ResultPage](../Images/ResultPage.png)
 

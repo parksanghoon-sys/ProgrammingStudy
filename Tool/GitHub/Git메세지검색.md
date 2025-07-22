@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Git Message 검색방법
 
 1. git log --grep "검색어"

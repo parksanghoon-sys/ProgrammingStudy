@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # StartPage
 ![ResultPage](../Images/ResultPage.png)
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Git flow
 ## git flow 전략
 ---

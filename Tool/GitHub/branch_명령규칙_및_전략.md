@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Git Branch
 ## Git branch 명명 규칙
 ---
