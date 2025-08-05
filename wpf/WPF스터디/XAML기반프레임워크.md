@@ -173,4 +173,153 @@ DI는 현대 소프트웨어 개발에서 필수의 패턴으로, 의존성 관�
 
 **CommunityToolkit.Mvvm**은 Microsoft.Extensions.DependencyInjection와 같은 DI를 직접적으로 제공하지 않는다. 그 이유는 **Microsoft.Extensions.DependencyInjection**이 WPF의 라이프사이클 성격과 정확하게 맞지 않기 때문으로 볼 수 있습니다.
 
-그러나 CommunityToolkit.Mvvm는 개발자가 원하는 DI 컨테이너를 사용하도록 **Ioc.Default** 를 제공한다. 이는 S
+그러나 CommunityToolkit.Mvvm는 개발자가 원하는 DI 컨테이너를 사용하도록 **Ioc.Default** 를 제공한다. 이는 **System.IServiceProvider** 인터페이스를 구현한 어떤 DI 컨테이너든 등록하여 사용할 수 있게 해줍니다
+
+Ekfktj CommunityToolkit.Mvvm을 사용 시에는 DI를 선택이 가능하다 가장 많이 사용하는 DI 중 하나는 **Microsoft.Extensions.DependencyInjection**이 틀림없으며, **Prism**과 같은 DI를 사용하는 것도 아주 효과적인 조합이다.
+
+#### 3.1.3 직접 DI컨테이너 설계
+
+**IServiceProvider** 인터페이스르 기반으로 DI르 설계하는 방법은 Ioc.Default에 등록이 가능하며 내부 기능적인 연계와 호환이 가능하다, 이처럼 IServiceProvider에서 요구하는 GetService와 같은 최소한의 구현만 하면 되기 떄문에 간단한 DI 구현이 가능하다
+
+**장점**
+
+* 필요한 기능만 포함한 간단한 DI 컨테이너를 구현하여 프로젝트의 복잡성을 낮춘다
+* 내부적으로 다양한 기능을 설계하고 제어하고 확정이 가능
+* 전체적인 프레임 아키텍쳐와 프로젝트 설계를 직접 정교하게 구축이 가능하다
+* 특정 플렛폼에 종속되지 않는 일관된 DI 컨테이너를 제공하여 크로스 플랫폼 개발에 유리하다
+
+예시 코드
+
+```csharp
+// IServiceProvider 기반의 DI 컨테이너 구현
+public class SimpleServiceProvider : IServiceProvider
+{
+    private readonly Dictionary<Type, Func<object>> _services = new();
+
+    public void AddService<TService>(Func<TService> implementationFactory)
+    {
+        _services[typeof(TService)] = () => implementationFactory();
+    }
+
+    public object GetService(Type serviceType)
+    {
+        return _services.TryGetValue(serviceType, out var factory) ? factory() : null;
+    }
+}
+
+// DI 컨테이너 등록 및 사용
+var serviceProvider = new SimpleServiceProvider();
+serviceProvider.AddService<IMainViewModel>(() => new MainViewModel());
+
+Ioc.Default.ConfigureServices(serviceProvider);
+```
+
+이처럼 **IServiceProvider** 인터페이스를 기반으로 간단한 DI 컨테이너를 구현하면, **CommunityToolkit.Mvvm**의 **Ioc.Default**에 등록하여 내부 기능적인 연계와 호환까지 가능합니다. 일반적으로  **Microsoft.Extensions.DependencyInjection** , **Prism**과 같은 대중적인 DI를 사용하는 것이 무겁다고 느껴진다면, 이를 직접 만드는 것은 아주 매력적인 선택입니다.
+
+ **참고** :
+
+**IServiceProvider**와 같은 **System.ComponentModel** 표준을 따르지 않을 경우 **CommunityToolkit.Mvvm**과의 **Ioc** 호환성은 잃게 될 수 있습니다. 하지만 **CommunityToolkit.Mvvm**을 MVVM 관련 모듈로서만 활용하고, 특정 플랫폼과 프레임워크에 종속되지 않은 더욱 특화되고 일관된 DI 컨테이너를 만들 수 있게 됩니다. 이는 크로스 플랫폼 등 여러 XAML 기반 플랫폼에 공통으로 사용될 수 있는 프레임워크를 만드는 데에도 상당히 적합합니다.
+
+## 4. WPF 기술을 다른 플랫폼에서 효과적으로 사용하기 위한 전략
+
+WPF 강력한 기능을 다른 XAML 기반 플랫폼에서 최대한 활용하기 위해서는 몇 가지 히스토리와 핵심전략을 알아야한다. 또한 WPF 기술을 그대로 사용할 수 있는 플랫폼의 특징을 자세하게 이해할필요가 있다.
+
+### 4.1 플랫폼 간의 특징과 차이점 이해
+
+* **UWP와 WinUI 3의 차이점** : UWP는 Windows 10을 위한 플랫폼으로, 스토어 등록을 위한 가이드라인과 WinAPI 제한 등 WPF나 WinForms 레거시와의 호환이 어려웠습니다. 이에 따라 WinUI 3가 등장하여 UWP의 모든 특장점을 계승하면서도 문제점들을 개선하고, WPF처럼 자유도 높은 플랫폼으로 발전했습니다.
+* **Uno Platform 데스크톱과 WinUI 3의 동일성** : Uno Platform의 Windows, macOS, Linux를 아우르는 데스크톱 플랫폼은 WinUI 3의 방식을 그대로 따릅니다. 따라서 UWP의 핵심 라이브러리를 WinUI 3가 그대로 동일하게 사용하고, Uno Platform도 WinUI 3의 방식을 동일하게 사용하기 때문에 `Microsoft.*`로 시작하는 모든 DLL 라이브러리를 그대로 공유합니다.
+
+이러한 각 플랫폼 간의 특징을 이해하면 **Uno Platform 데스크톱의 활용 가치**가 얼마나 효과적이고 매력적인 플랫폼인지 알 수 있습니다. 따라서 WPF와 Uno Platform 간의 기술 공유와 전환은 WinUI 3와 UWP까지 연계되기 때문에 더욱 효과적이고 효율적인 전략입니다.
+
+### 4.2 VisulStateManager (VSM)의 적극적인 활용
+
+모든 플랫폼에서 WPF의 Trigger를 직접 사용할 수 없기에, 이를 대처하기위해 VSM을 활요하여 문제를 해결할 수있다.
+
+커스텀 컨틀롤과 XAML간의 상태처리에 최적화 되어 있다, WPF의 모든 CostomControl의 내부 설계도 Trigger에서 VSM으로 변경이 되고 있다.
+
+**장점**
+
+* Trigger를 직접 사용하지 못하는 플랫폼에서 VSM을 통해 동일한 기능을 구현이 가능하다
+* UI 상태관리와 애니메이션을 효과적으로 구현이 가능
+* 플랫폼 별 다른 동작을 VSM을 통해 통일 가능
+
+### 4.3 IValueConverter의 유연한 활용
+
+**IValueConverter**는 데이터 바인딩 시 값의 변환을 가능하게 해주는 인터페이스로, 플랫폼 간의 차이를 추상화하는 데 유용합니다.
+
+ **전략적 활용** :
+
+* Trigger와 거의 동일한 기능을 구현하고 대체할 수 있으며, 사용하기 쉽고 효과적인 소스 코드를 작성할 수 있습니다.
+* 매번 Converter를 만들어야 하고 재사용성에 기준이 모호하기 때문에, 재사용성에 너무 얽매이지 않고 유연하게 사용하는 것이 좋습니다.
+* 재사용성이 없더라도 직관적으로 사용하는 것이 중요하며, 이름을 명확하게 해서 분기를 최대한 줄이고 특화되게 사용하는 것이 좋습니다.
+
+ **한계와 보완** :
+
+* 모든 것을 **IValueConverter**로만 사용하는 것은 한계가 있습니다.
+* **IValueConverter**는 단순한 변환에 사용하고, 복잡한 시나리오를 관리하는 것은 부담이 되기 때문에 **VSM**을 통해 해결합니다.
+* 복잡한 상태 처리는 **VisualStateManager**를 사용하는 것이 좋습니다.
+
+결국 **IValueConverter**는 VSM의 부족한 부분을 채워주고, 간단하고 단순한 변환 작업을 직관적이고 재사용에 너무 집착하지 말고 유연하게 사용하는 것이 중요합니다.
+
+## 5. 분산된 프로젝트 관리를 위한 Bootstrapper 설계 방법
+
+앱이 복잡해지고 모듈화 될수록 초기화 과정과 의존성 관리가 중요해진다 Bootstrapper 패턴은 이러한 초기화 로직을 중앙화 하고 관리하는데 유용하다
+
+모든 플랫폼은 App 설계를 기본으로 하지만, 플랫폼마다 성격과 방식 등이 다 다르기 떄문에 App 설계가 제각각 이다, 따라서 모든 플랫폼에서 동일한 개발 방식을 유지하기 위해서 Bootstrapper 구조설계가 효과적일 수 있다.
+
+### 5.1 Bootstrapper 역활과 필요성
+
+**Bootstrapper**의 기능
+
+* 의존성 주입 설정 : DI 컨테이너를 초기화 하고 필요한 서비스와 뷰, 뷰모델을 등록
+* 뷰모델과 뷰의 연결 관리
+* 중앙화된 설정 관리 : App의 설정을 Bootstrapper에서 관리하고, 애플리케이션 프로젝트는 해당 역할만 수행, 나머지 기능은 프로젝트 분산화와 모듈화를 통해 관리
+* 그 밖에도 중앙화 관리를 위한 항목을 유여한게 늘려나갈 수 있고 App에 영향을 주지 안흔다
+
+**장점**
+
+* App의 초기화 로직을 분리하여 코드의 가독서오가 유지보수성을 높인다
+* 프로젝트 분산화와 모듈화를 통해 기능 구현을 독립적으로 개발 가능
+* 플랫폼 간의 구조적인 차이를 최소화하여 일관된 아키텍쳐를 유지한다.
+
+예시코드
+
+```csharp
+namespace Jamesnet.Core;
+
+public abstract class AppBootstrapper
+{
+    protected readonly IContainer Container;
+    protected readonly ILayerManager Layer;
+    protected readonly IViewModelMapper ViewModelMapper;
+
+    protected AppBootstrapper()
+    {
+        Container = new Container();
+        Layer = new LayerManager();
+        ViewModelMapper = new ViewModelMapper();
+        ContainerProvider.SetContainer(Container);
+        ConfigureContainer();
+    }
+
+    protected virtual void ConfigureContainer()
+    {
+        Container.RegisterInstance<IContainer>(Container);
+        Container.RegisterInstance<ILayerManager>(Layer);
+        Container.RegisterInstance<IViewModelMapper>(ViewModelMapper);
+        Container.RegisterSingleton<IViewModelInitializer, DefaultViewModelInitializer>();
+    }
+
+    protected abstract void RegisterViewModels();
+    protected abstract void RegisterDependencies();
+
+    public void Run()
+    {
+        RegisterViewModels();
+        RegisterDependencies();
+        OnStartup();
+    }
+
+    protected abstract void OnStartup();
+}
+```
