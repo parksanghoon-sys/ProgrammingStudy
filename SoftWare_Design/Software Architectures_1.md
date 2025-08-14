@@ -123,7 +123,7 @@ namespace ECommerce.Modules.Orders
         {
             // Validate products exist
             var products = await _productService.SearchProductsAsync(request.ProductIds);
-      
+    
             // Create order logic
             return new Order { Name="Book", PaymentId=23566};
         }
@@ -189,16 +189,16 @@ public class ProductService : IProductService
     public async Task<Product> GetProductAsync(int id)
     {
         var product = await _repository.GetByIdAsync(id);
-    
+  
         // Business logic
         if (product.IsDiscontinued)
         {
             throw new ProductNotFoundException();
         }
-    
+  
         // Check inventory
         product.StockLevel = await _inventoryService.GetStockLevelAsync(id);
-    
+  
         return product;
     }
 }
@@ -261,7 +261,7 @@ public class Product
     {
         if (newPrice <= 0)
             throw new ArgumentException("Price must be positive");
-        
+      
         Price = newPrice;
     }
   
@@ -284,10 +284,10 @@ public class GetProductUseCase
     public async Task<Product> ExecuteAsync(int productId)
     {
         var product = await _repository.GetByIdAsync(productId);
-    
+  
         if (product == null)
             throw new ProductNotFoundException();
-        
+      
         return product;
     }
 }
