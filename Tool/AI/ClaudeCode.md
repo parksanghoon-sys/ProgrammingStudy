@@ -82,3 +82,10 @@ super claude를 사용하여 페르소나를 주입하면 더 좋습니다.)
 ## 이전 대화 내용을 가져와 이어서 하고싶다면?
 
 `/resume` 를 사용해서 원하는 대화 세션에 참가하여 대화를 이어나갈 수 있습니다.
+
+## 권한 부여 실행
+
+```
+ claude --dangerously-skip-permissions
+출처: https://goddaehee.tistory.com/402 [갓대희의 작은공간:티스토리]
+```
