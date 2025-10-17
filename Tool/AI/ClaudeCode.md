@@ -88,4 +88,11 @@ super claude를 사용하여 페르소나를 주입하면 더 좋습니다.)
 ```
  claude --dangerously-skip-permissions
 출처: https://goddaehee.tistory.com/402 [갓대희의 작은공간:티스토리]
+
+
 ```
+
+## 설치 방법
+
+1. Node 설치
+2. npm install -g @anthropic-ai/claude-code@latest
