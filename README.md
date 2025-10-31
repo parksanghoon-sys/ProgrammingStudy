@@ -10,3 +10,4 @@
    * Docker
    * Github
    * UML
+   * AI
