@@ -2,8 +2,6 @@
 
 ---
 
-
-
 ### Arugument (함수 및 클래스 인자값 규칙)
 
 * 인자가 많아지면 복잡도가 증가
@@ -24,8 +22,6 @@
   * public api의 경우에는 defensie 하게 해도 괜찮다.
 
 ---
-
-
 
 ### The Stepdown Rule
 
@@ -63,7 +59,7 @@
 
 ---
 
-## Switches and cases
+### Switches and cases
 
 * Switch 문장을 꺼리자
 * 객체지향을 사용하여 interface 로 사용시 이점
@@ -82,3 +78,54 @@
 * switch 문장 제거 절차
   * swich 문장을 interface 호출로 변환한다.
   * case에 있는 문장을 별도의 클래스로 호출하여 변경 영향이 발생하지 않도록 한다.
+
+### 함수들이 순서를 지키며 호출되어야 한다.
+
+* 메소드들이 순서를 지키게 되어야한다.
+  * ex) file open, excute, close
+
+### CQS
+
+* Command는 상태의 변경을 유발
+  * 아무것도 반환하지 않는다.
+  * Side effect를 갖는다
+* query 는 상태의변경은 없어야한다.
+  * 계산 값이나 시스템상태를 반환
+  * side effect가 없다.
+* 상태를 변경하는 함수는 값을 반환해선 안된다
+* 값을 반환하는 함수는 상태를 변겨하면 안된다.
+
+### Tell Don't Ask
+
+* Command 와 Query를 함께 사용하지 말도록한다.
+* 책임을 갖는 객체가 모든 처리를 하는것이 좋다.
+  * 예를 들면 로그인 되었는지 아닌지 아는것은 user 객체이다.
+* 내상태를 다른 객체에게 준다면 다른객체가 어떻게 처리할지 모르기 떄문에 피해야한다.
+* 쿼리 메시지는 줄이는게 좋다.
+
+### Early returns
+
+* early return 이나 guared return 은 허용
+* 루프의 중간에서 리턴은 문제이다.
+  * break, 루프 중간에서의 return은 loop를 복잡하게함
+* 코드가 동작하도록 하는 것보다 이해할 수 있게하는 것이 더 중요
+
+### Error Handling
+
+* 에러 처리를 위해 pop은 null을 반환하고,  push는 false를 반환할 수있다.
+
+### Null is not an a error
+
+* top를 호출하는 사람은 아무도 null을 기대하지 ㅇ낳는다.
+* null 을 반환하다기 보다는 exception을 발행하여 오류를 발행하자
+
+### Null is value
+
+* null 값은 적절한 값일  수 있다.
+  * 어떨 때는 find가 실패할 것임을 기대하기도 한다.
+
+### Try도 하나의 역할./ 기능이다.
+
+* try 도 그앤에 한문장만 있어야한다.
+* 함수내에 try문이 있다면 try는 첫번째이다.
+* finally는 반드시 마지막이여야한다.
