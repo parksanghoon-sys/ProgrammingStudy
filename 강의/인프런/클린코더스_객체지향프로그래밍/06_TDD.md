@@ -37,3 +37,26 @@
 ---
 
 ## TDD 실습
+
+* 볼링은 10개의 프레임으로 구성
+* 각 프레임은 2개의 롤을 갖는다 (10개의 핀을 쓰러트러기위해 2번의 기회를 얻는다)
+* Spare : 10 + Next first roll에서 쓰러트린 핀수
+* Strike 10 + nest two rolls에 쓰러트린 핀수
+* 10th 프레임은 특별하다, Spare 처리하면 3번 던질 수 있음
+* 목적
+  * Game 이라는 클래스를 생성하는것
+  * roll 과 score라는 2개의 메소드를 갖는다
+  * roll 메소드는 ball을 roll 할때마다 호출된다, 인자료는 쓰러트린 핀의 갯술를 갖는다
+  * Score 메소드는 게임이 끄난 후 에만 호출되어 게임의 점수를 반환한다.
+
+```csharp
+public class Game
+{
+	List<Frame> _frames = new(10);
+
+}
+
+public class Frame
+{
+}
+```
