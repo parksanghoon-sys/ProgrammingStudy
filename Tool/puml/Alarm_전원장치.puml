@@ -1,0 +1,21 @@
+@startuml
+
+(*) --> "Start"
+If "IMC_PPC_AVN_STATUS_04.MAIN_GEN_STS == 1" then
+--> If [YES]"(FLCC_PPC_PMU_CAM_GUIDED_OFFSET_STATUS.MGEN_STATUS == 1)" then
+--> IF "WowOff == true" then
+--> [YES] "경고 및 알람 표시"
+else
+--> IF [NO]"FLCC_PPC_IPCMU_STATUS_1.NP >= 95" then
+--> [YES] "경고 및 알람 표시"
+--> "Start"
+else
+--> [NO] "경고 및 알람 미 표시"
+--> "Start"
+Endif
+Endif
+--> "Start"
+Endif
+Endif
+
+@enduml
