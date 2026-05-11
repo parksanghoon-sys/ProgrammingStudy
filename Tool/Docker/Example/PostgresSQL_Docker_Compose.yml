@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: app_user            # 기본 슈퍼유저 계정
+      POSTGRES_PASSWORD: 123456      # 슈퍼유저 비밀번호
+      POSTGRES_DB: app_db                  # 기본 생성 데이터베이스
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data     # 데이터 영속성을 위한 볼륨
+      - ./init-scripts:/docker-entrypoint-initdb.d # 초기화 스크립트 폴더
+    networks:
+      - postgres_network
+
+volumes:
+  postgres_data:
+    name: postgres_data_volume
+
+networks:
+  postgres_network:
+    driver: bridge
