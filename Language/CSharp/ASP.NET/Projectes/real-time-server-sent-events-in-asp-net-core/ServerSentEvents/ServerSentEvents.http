@@ -1,0 +1,5 @@
+@ServerSentEvents_HostAddress = http://localhost:5000
+
+### Test SSE stream from .NET 10 Minimal API
+GET {{ServerSentEvents_HostAddress}}/stocks
+Accept: text/event-stream
