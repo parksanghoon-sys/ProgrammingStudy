@@ -14,3 +14,4 @@
 | 해석1     | 바로 상위에 있는 StackPanel의 배경색상을 참조할 것                                                             |
 | 예시구문2 | `Text="{Binding RelativeSource={RelativeSource AncestorType=StackPanel, AncestorLevel=2}, Path=Background}"` |
 | 해석2     | 상위 두번째에 있는 StackPanel의 배경색상을 참조할 것                                                           |
+

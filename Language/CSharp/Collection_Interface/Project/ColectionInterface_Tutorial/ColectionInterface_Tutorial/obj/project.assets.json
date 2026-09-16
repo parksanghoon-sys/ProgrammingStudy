@@ -8,25 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ParkSangHoon\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\IEnumerable_IEnumerator.csproj",
+      "projectUniqueName": "D:\\01_MyStudy\\00.ProgrammingStudy\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\IEnumerable_IEnumerator.csproj",
       "projectName": "IEnumerable_IEnumerator",
-      "projectPath": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\IEnumerable_IEnumerator.csproj",
-      "packagesPath": "C:\\Users\\ParkSangHoon\\.nuget\\packages\\",
-      "outputPath": "F:\\C++++\\Csharp_Study\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\obj\\",
+      "projectPath": "D:\\01_MyStudy\\00.ProgrammingStudy\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\IEnumerable_IEnumerator.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\01_MyStudy\\00.ProgrammingStudy\\Language\\CSharp\\Collection_Interface\\Project\\ColectionInterface_Tutorial\\ColectionInterface_Tutorial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ParkSangHoon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -47,7 +45,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net7.0": {
@@ -68,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
