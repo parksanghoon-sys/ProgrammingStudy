@@ -21,4 +21,4 @@
 * navbars : 일반적으로 header bar 나 footer bar 내에 위치하면서 특정한 페이지로 이동하는 메뉴의 역할
 * button : 버튼
 * form : 사용자로부터 데이터를 입력받는 컨트롤
-* list view : 여러개의 항목을 열거하는데 사용되는 컨트롤
+* list view : 여러개의 항목을 열거하는데 사용되는 컨트롤 

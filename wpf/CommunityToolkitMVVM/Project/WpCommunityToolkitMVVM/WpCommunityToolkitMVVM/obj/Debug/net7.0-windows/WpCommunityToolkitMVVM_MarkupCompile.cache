@@ -1,20 +1,20 @@
 ﻿WpCommunityToolkitMVVM
-
+1.0.0.0
 
 winexe
 C#
 .cs
-F:\C++++\Csharp_Study\wpf\CommunityToolkitMVVM\Project\WpCommunityToolkitMVVM\WpCommunityToolkitMVVM\obj\Debug\net7.0-windows\
+D:\01_MyStudy\00.ProgrammingStudy\wpf\CommunityToolkitMVVM\Project\WpCommunityToolkitMVVM\WpCommunityToolkitMVVM\obj\Debug\net7.0-windows\
 WpCommunityToolkitMVVM
 none
 false
-TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-F:\C++++\Csharp_Study\wpf\CommunityToolkitMVVM\Project\WpCommunityToolkitMVVM\WpCommunityToolkitMVVM\App.xaml
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\01_MyStudy\00.ProgrammingStudy\wpf\CommunityToolkitMVVM\Project\WpCommunityToolkitMVVM\WpCommunityToolkitMVVM\App.xaml
 31757956984
 
-101666635204
-201845345553
+12-1035760232
+201-970024956
 Mappings.xaml;Views\MainWindow.xaml;Views\ReceiveView.xaml;
 
-False
+True
 

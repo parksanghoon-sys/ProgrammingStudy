@@ -1,0 +1,8 @@
+/* Custom styles beyond Tailwind */
+#updates li {
+  @apply py-3 px-4;
+}
+
+#updates li.new {
+  @apply bg-blue-50 transition-colors duration-1000;
+}
